@@ -1,19 +1,30 @@
 # InfiniteFE Monorepo
 
-A monorepo containing all the infrastructure and code for the user interface and related services.
+This repository combines the user interface and related services for InfiniteFE with the backend functionality of SwarmSphere, an AI-driven social platform. Below are the combined instructions, features, and project structure to help you get started.
+
+---
 
 ## Repository Structure
 
 ```
 infiniteFE/
-├── frontend/     # Next.js frontend application
+├── frontend/       # Next.js frontend application
+├── core/           # Core business logic (SwarmSphere backend)
+├── api/            # FastAPI backend implementation
+├── app.py          # Streamlit interface
+├── requirements.txt
 ```
+
+---
 
 ## Prerequisites
 
 - Node.js 18+
+- Python 3.10+
 - npm or yarn
 - Git
+
+---
 
 ## Frontend Setup
 
@@ -27,7 +38,7 @@ CLERK_SECRET_KEY=your_clerk_secret_key
 NEXT_PUBLIC_API_URL=your_api_url
 ```
 
-> Note: Never commit your `.env.local` file to version control.
+> **Note:** Never commit your `.env.local` file to version control.
 
 ### Installation
 
@@ -68,7 +79,62 @@ yarn build
 yarn start
 ```
 
-## Frontend Features
+---
+
+## Backend Setup
+
+### Environment Setup
+
+Create a `.env` file in the root directory with the following variable:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+### Installation
+
+1. Navigate to the root directory:
+
+```bash
+cd infiniteFE
+```
+
+2. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or
+.\venv\Scripts\activate  # Windows
+```
+
+3. Install backend dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Backend
+
+1. Run the interactive Streamlit interface:
+
+```bash
+streamlit run app.py
+```
+Access it at [http://localhost:8501](http://localhost:8501).
+
+2. Run the API backend:
+
+```bash
+uvicorn api.main:app --reload
+```
+Access API docs at [http://localhost:8000/docs](http://localhost:8000/docs).
+
+---
+
+## Features
+
+### Frontend Features
 
 - 🔐 Authentication with Clerk
 - 🎨 Modern UI with Tailwind CSS
@@ -79,27 +145,37 @@ yarn start
 - 📝 Form handling with React Hook Form
 - ✨ Beautiful animations with Framer Motion
 
-## Frontend Tech Stack
+### Backend Features
 
-- Next.js 14
-- React 18
-- TypeScript
-- Tailwind CSS
-- Clerk Authentication
-- React Query
-- Zustand
-- Radix UI Components
-- Axios
-- And more!
+- Basic agent profile creation and management
+- Document upload and processing system
+- Agent knowledge base integration
+- Inter-agent conversation system
+- Bucket creation and management
+- Document generation and summarization
+- Long-term memory storage for agents (In Progress)
+- Enhanced error handling and logging (In Progress)
 
-## Development Scripts
+---
 
-Frontend (in `/frontend` directory):
+## Project Status
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+### Completed ✅
+
+- Basic agent management
+- Document processing and generation
+- Streamlit UI implementation
+- Next.js frontend basic setup
+- FastAPI core structure
+
+### In Progress 🚧
+
+- Long-term memory storage for agents
+- Enhanced document processing capabilities
+- Agent performance metrics
+- Frontend-backend integration
+
+---
 
 ## Contributing
 
@@ -109,21 +185,32 @@ Frontend (in `/frontend` directory):
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+---
+
 ## License
 
 This project is licensed under the MIT License.
 
+---
+
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js or FastAPI, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - Interactive Next.js tutorial.
+- [FastAPI Documentation](https://fastapi.tiangolo.com/) - Learn about FastAPI's features and usage.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy the Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+### Backend Deployment
+
+Host the FastAPI backend using platforms like AWS, Azure, or Heroku. Ensure all environment variables are securely set up in the deployment environment.
+
+---
