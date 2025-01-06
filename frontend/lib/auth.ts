@@ -1,13 +1,7 @@
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 
-const ALLOWED_EMAILS = [
-  "dddharamveersingh@gmail.com",
-  "chaitanyarai899@gmail.com",
-  "piyushch377@gmail.com",
-  "kevin@gitcoin.co",
-  "venkatachaitanya373@gmail.com",
-];
+const ALLOWED_EMAILS = [""];
 
 export async function checkAllowedEmail() {
   const user = await currentUser();
