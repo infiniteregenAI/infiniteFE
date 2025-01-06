@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+c8d8de2b860dd1b812409eaaecd793d829669d66 refs/remotes/origin/apis_implemented
+3cd75191eeac2e67bc410919c52cd47086e3a2b4 refs/remotes/origin/dev
+2dca5aa50533c164a5878f755c5e51a99a3dde11 refs/remotes/origin/main
+0287c32f6b62e417f40f0b924bd90adfd1738970 refs/remotes/origin/revert-15-sub_dev_2
+18de39c9136715fede925827e69a08467beb66e1 refs/remotes/origin/revert-16-sub_dev_2
+c5828d9e2be460000f6665aa071d90106822f9ba refs/remotes/origin/sub_dev_2

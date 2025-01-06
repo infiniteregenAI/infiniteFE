@@ -1,0 +1,28 @@
+# API Dependencies
+fastapi
+python-multipart
+sse-starlette
+uvicorn
+pydantic
+pydantic-settings
+
+# Streamlit UI
+streamlit
+
+# Document Processing
+python-docx
+PyPDF2
+langchain
+langchain-community
+chromadb
+
+# OpenAI Integration
+openai
+tiktoken
+
+# Utilities
+python-dotenv
+tqdm
+
+# File Handling
+typing-extensions
