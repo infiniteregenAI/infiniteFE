@@ -1,6 +1,13 @@
-# InfiniteFE
+# InfiniteFE Monorepo
 
-A repository containing all the infrastructure and code for the user interface.
+A monorepo containing all the infrastructure and code for the user interface and related services.
+
+## Repository Structure
+
+```
+infiniteFE/
+├── frontend/     # Next.js frontend application
+```
 
 ## Prerequisites
 
@@ -8,9 +15,11 @@ A repository containing all the infrastructure and code for the user interface.
 - npm or yarn
 - Git
 
-## Environment Setup
+## Frontend Setup
 
-Create a `.env.local` file in the root directory with the following variables:
+### Environment Setup
+
+Create a `.env.local` file in the `frontend` directory with the following variables:
 
 ```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
@@ -20,24 +29,25 @@ NEXT_PUBLIC_API_URL=your_api_url
 
 > Note: Never commit your `.env.local` file to version control.
 
-## Installation
+### Installation
 
 1. Clone the repository:
 
 ```bash
 git clone [repository-url]
-cd infiniteFE/frontend
+cd infiniteFE
 ```
 
-2. Install dependencies:
+2. Install frontend dependencies:
 
 ```bash
+cd frontend
 npm install
 # or
 yarn install
 ```
 
-3. Run the development server:
+3. Run the frontend development server:
 
 ```bash
 npm run dev
@@ -45,11 +55,12 @@ npm run dev
 yarn dev
 ```
 
-The application will be available at [http://localhost:3000](http://localhost:3000)
+The frontend application will be available at [http://localhost:3000](http://localhost:3000)
 
-## Build for Production
+### Build Frontend for Production
 
 ```bash
+cd frontend
 npm run build
 npm start
 # or
@@ -57,7 +68,7 @@ yarn build
 yarn start
 ```
 
-## Key Features
+## Frontend Features
 
 - 🔐 Authentication with Clerk
 - 🎨 Modern UI with Tailwind CSS
@@ -68,7 +79,7 @@ yarn start
 - 📝 Form handling with React Hook Form
 - ✨ Beautiful animations with Framer Motion
 
-## Tech Stack
+## Frontend Tech Stack
 
 - Next.js 14
 - React 18
@@ -81,7 +92,9 @@ yarn start
 - Axios
 - And more!
 
-## Development
+## Development Scripts
+
+Frontend (in `/frontend` directory):
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
