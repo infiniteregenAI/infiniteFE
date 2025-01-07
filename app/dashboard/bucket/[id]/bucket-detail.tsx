@@ -27,13 +27,13 @@ export default function BucketDetail() {
   const [currentExchange, setCurrentExchange] = useState<number>(0);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  const currentBucket = buckets.find((b) => b.id === params.id);
+  const currentBucket = buckets.find((b) => b.id === params?.id);
 
   const { data: chatData, isLoading } = useQuery({
-    queryKey: ["chat", params.id],
+    queryKey: ["chat", params?.id],
     queryFn: async () => {
       const response = await api.get(
-        `/conversation/${params.id}/multi-agent-chat`
+        `/conversation/${params?.id}/multi-agent-chat`
       );
       return response.data as { messages: ChatMessage[] };
     },
@@ -45,7 +45,7 @@ export default function BucketDetail() {
   const generateReportMutation = useMutation({
     mutationFn: async () => {
       const response = await api.post(
-        `/conversation/${params.id}/generate-document-with-multi-agent-chat`,
+        `/conversation/${params?.id}/generate-document-with-multi-agent-chat`,
         {},
         { responseType: "blob" }
       );
@@ -117,7 +117,7 @@ export default function BucketDetail() {
 
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/conversation/${
+        `/api/py/conversation/${
           currentBucket.id
         }/chat-between-n-agents?number_of_exchanges=${
           currentBucket.numberOfExchanges || 4
