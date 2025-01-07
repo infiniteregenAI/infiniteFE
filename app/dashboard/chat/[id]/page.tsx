@@ -7,7 +7,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useParams } from "next/navigation";
 
 const Page = () => {
-  const { id } = useParams();
+  const id = useParams()?.id as string;
   const { data: agent } = useQuery({
     queryKey: ["agent", id],
     queryFn: async () => {

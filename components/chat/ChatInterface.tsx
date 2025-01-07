@@ -224,7 +224,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ agentId }) => {
       };
 
       try {
-        const response = await fetch(`/conversation/${agentId}/chat`, {
+        const response = await fetch(`/api/py/conversation/${agentId}/chat`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
