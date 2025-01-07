@@ -3,9 +3,7 @@ from fastapi.responses import StreamingResponse
 from fastapi import BackgroundTasks
 import traceback
 from ..models import ConversationInput, GenerateDocumentInput
-from ..core.agent_manager import AgentManager
-from ..core.conversation_manager import ConversationManager
-from ..core.document_generator import DocumentGenerator
+from core import ConversationManager, AgentManager, DocumentGenerator
 import traceback
 import json
 import os

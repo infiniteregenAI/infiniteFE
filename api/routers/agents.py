@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, UploadFile, File, Form
 from typing import List
 from api.models import  AgentUpdate, AgentResponse
-from ..core.agent_manager import AgentManager, Agent
+from core import AgentManager, Agent
 import traceback
 
 router = APIRouter()
