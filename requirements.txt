@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+aiofiles
+python-multipart
+sse-starlette
+pydantic
+pydantic-settings
+python-docx
+PyPDF2
+langchain
+langchain-community
+chromadb
+openai
+tiktoken
+python-dotenv
+tqdm
+typing-extensions
