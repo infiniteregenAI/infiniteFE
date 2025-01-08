@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "1",
+    "name": "Ronaldo",
+    "role": "Footballer",
+    "avatar": "\u26bd",
+    "expertise": [
+      "[\"football\"]"
+    ],
+    "personality": "\"relentless determination, disciplined work ethic, charismatic confidence\"",
+    "has_knowledge_base": false,
+    "document_count": 0
+  }
+]

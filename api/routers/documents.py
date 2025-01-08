@@ -23,7 +23,13 @@ async def generate_summary(request: GenerateSummaryRequest):
             str : The generated summary.
     """
     try:
-        return document_generator.generate_summary(request.messages)
+        messages = []
+        for message in request.messages:
+            messages.append({
+                "role": message.role,
+                "content": message.content
+            })
+        return document_generator.generate_summary(messages)
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 

@@ -1,120 +1,120 @@
 from typing import List, Dict
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-import io
+from io import BytesIO
 import openai
 import re
+from .config import settings
+
+openai.api_key = settings.OPENAI_API_KEY
 
 class DocumentGenerator:
     @staticmethod
-    def generate_summary(messages: List[Dict[str, str]], goal: str) -> str:
+    def generate_summary(messages: List[Dict[str,str]]) -> str:
+        """
+            This method generates a summary from the conversation messages.
+            
+            Args :
+                messages (List[Dict[str, str]]) : The conversation messages.
+                
+            Returns :
+                str : The generated summary.
+        """
+        conversation_text = "\n".join([f"{message['role']}: {message['content']}" for message in messages])
+
         summary_prompt = {
             "role": "system",
-            "content": f"""Summarize the entire conversation, focusing on the following:
+            "content": f"""Create a concise but comprehensive Web3 x Regenerative Future summary. Keep each section focused and specific:
 
-        * **Executive Summary:** 
-            - Briefly describe the main topic and purpose of the conversation. 
-            - Summarize the key outcomes and decisions reached.
+            ## Executive Summary
+            [One paragraph overview of key innovations]
 
-        * **Key Findings & Insights:** 
-            - Highlight the most important information, conclusions, and agreements made during the discussion. 
-            - Include any valuable insights or new perspectives gained.
+            ### Technical Innovations
+            - Core mechanisms proposed
+            - Novel combinations discovered
+            - Technical challenges addressed
 
-        * **Action Items:** 
-            - List any specific actions, decisions, or next steps that need to be taken. 
-            - Include who is responsible for each action and any associated deadlines.
+            ### Implementation Framework
+            - Key milestones
+            - Technical requirements
+            - Resource needs
 
-        Keep the summary concise, objective, and easy to understand. Avoid generic statements and focus on the most relevant and actionable information.
+            ### Impact Metrics
+            - Environmental KPIs
+            - Social impact measures
+            - Economic sustainability indicators
+            Keep all content specific and actionable. Avoid generic statements.
 
-        **Goal of Conversation:**
-        {goal}
-
-        **Conversation:**
-        """
+            # Start of conversation:
+            {conversation_text}
+            """
         }
-        
+
         response = openai.chat.completions.create(
-            model="gpt-4",
-            messages=[summary_prompt] + messages,
-            temperature=0.6,
+            model="gpt-4o-mini",
+            messages=[summary_prompt],
+            temperature=0.7,
             max_tokens=1000,
             stream=False
         )
         return response.choices[0].message.content
 
     @staticmethod
-    def create_document(summary: str, goal: str, messages: List[Dict[str, str]], agent1_name: str, agent2_name: str) -> io.BytesIO:
+    def create_document( summary: str,goal: str, messages: List[Dict[str, str]]) -> BytesIO:
+        """
+        Creates a Word document from the provided input data and returns it as a BytesIO object.
+
+        Args:
+            goal (str): The innovation goal.
+            summary (str): The generated summary in markdown format.
+            messages (List[Dict[str, str]]): The conversation messages.
+
+        Returns:
+            BytesIO: The Word document as a binary stream.
+        """
         doc = Document()
 
-        header = doc.add_heading(f"{agent1_name} X {agent2_name} Conversation", 0)
-        header.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        title = doc.add_heading('Summarized Document', level=0)
+        title.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-        doc.add_paragraph()
+        doc.add_heading('Goal:', level=1)
+        doc.add_paragraph(goal)
 
-        goal_para = doc.add_paragraph()
-        goal_run = goal_para.add_run('Innovation Goal: ')
-        goal_run.bold = True
-        goal_para.add_run(goal)
+        doc.add_heading('Summary:', level=1)
 
-        doc.add_paragraph()
+        def add_paragraph_with_bold_text(text: str, doc):
+            """Helper function to process and add text with bold formatting."""
+            bold_split = re.split(r'(\*\*.*?\*\*)', text)
+            para = doc.add_paragraph()
+            for segment in bold_split:
+                if segment.startswith('**') and segment.endswith('**'):
+                    bold_run = para.add_run(segment[2:-2])
+                    bold_run.bold = True
+                else:
+                    para.add_run(segment)
 
-        lines = summary.split('\n')
-        for line in lines:
+        summary_lines = summary.strip().split('\n')
+        for line in summary_lines:
             line = line.strip()
-            if line.startswith('#'):
-                heading_level = min(line.count('#'), 4)
-                heading_text = line.lstrip('#').strip()
-                doc.add_heading(heading_text, level=heading_level)
-            elif line:
-                para = doc.add_paragraph()
-                format_text(para, line)
-
-        doc.add_heading('Full Dialogue', level=1)
-        for i, msg in enumerate(messages):
-            p = doc.add_paragraph()
-            if i % 2 == 0: 
-                speaker_run = p.add_run(f"{agent1_name}: \n")
+            if line.startswith('- '):
+                doc.add_paragraph(line[2:].strip(), style='List Bullet')
+            elif re.match(r'^#+\s', line):
+                heading_level = line.count('#')
+                doc.add_heading(line.lstrip('#').strip(), level=min(heading_level, 4))
             else:
-                speaker_run = p.add_run(f"{agent2_name}: \n")
-            speaker_run.bold = True
+                add_paragraph_with_bold_text(line, doc)
 
-            message_content = msg["content"]
-            process_markdown_content(doc, message_content)
+        doc.add_heading('Messages:', level=1)
+        for message in messages:
+            role_name = message['role']
+            doc.add_heading(f"Message from {role_name}:", level=2)
 
-            if msg != messages[-1]:
-                doc.add_paragraph('---')
+            content_lines = message['content'].strip().split('\n')
+            for line in content_lines:
+                add_paragraph_with_bold_text(line, doc)
 
-        doc.add_paragraph('=' * 50)
-        footer = doc.add_paragraph('Generated by GreenPill Network x Kevin Owocki Dialogue System')
-        footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
-
-        doc_io = io.BytesIO()
+        doc_io = BytesIO()
         doc.save(doc_io)
         doc_io.seek(0)
+
         return doc_io
-
-def process_markdown_content(doc, content):
-    """
-    Processes markdown-like content in messages to handle headings and bold text.
-    """
-    lines = content.split('\n')
-    for line in lines:
-        line = line.strip()
-        if line.startswith('#'):
-            heading_level = min(line.count('#'), 4)
-            heading_text = line.lstrip('#').strip()
-            doc.add_heading(heading_text, level=heading_level)
-        elif line:
-            para = doc.add_paragraph()
-            format_text(para, line)
-
-def format_text(paragraph, content):
-    """
-    Formats text to handle **<TEXT>** for bold formatting and removes the ** markers.
-    """
-    parts = re.split(r'(\*\*.*?\*\*)', content)
-    for part in parts:
-        if part.startswith('**') and part.endswith('**'):
-            paragraph.add_run(part[2:-2]).bold = True
-        else:
-            paragraph.add_run(part)
