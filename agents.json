@@ -10,5 +10,17 @@
     "personality": "\"relentless determination, disciplined work ethic, charismatic confidence\"",
     "has_knowledge_base": false,
     "document_count": 0
+  },
+  {
+    "id": "2",
+    "name": "Aditya",
+    "role": "Coder",
+    "avatar": "\u26bd",
+    "expertise": [
+      "[\"Coder\"]"
+    ],
+    "personality": "\"relentless determination, disciplined work ethic, charismatic confidence\"",
+    "has_knowledge_base": true,
+    "document_count": 1
   }
 ]

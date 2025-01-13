@@ -1,7 +1,7 @@
 from typing import List, Optional
 import json
 import os
-from .models import Agent
+from .models import AgentModel
 from .document_processor import DocumentProcessor
 
 class AgentManager:
@@ -29,7 +29,7 @@ class AgentManager:
             with open(self.storage_path, 'w') as f:
                 json.dump([], f)
     
-    def create_agent(self, agent: Agent, documents: List[bytes] = None) -> Agent:
+    def create_agent(self, agent: AgentModel, documents: List[bytes] = None) -> AgentModel:
         """
             This method creates a new agent.
             
@@ -57,7 +57,7 @@ class AgentManager:
         
         return agent
     
-    def get_all_agents(self) -> List[Agent]:
+    def get_all_agents(self) -> List[AgentModel]:
         """
             This method returns all agents.
             
@@ -66,9 +66,9 @@ class AgentManager:
         """
         with open(self.storage_path, 'r') as f:
             agents = json.load(f)
-        return [Agent(**agent) for agent in agents]
+        return [AgentModel(**agent) for agent in agents]
     
-    def get_agent(self, agent_id: str) -> Optional[Agent]:
+    def get_agent(self, agent_id: str) -> Optional[AgentModel]:
         """
             This method returns an agent by id.
             
@@ -84,7 +84,7 @@ class AgentManager:
                 return agent
         return None
     
-    def update_agent(self, agent_id: str, agent: Agent) -> Optional[Agent]:
+    def update_agent(self, agent_id: str, agent: AgentModel) -> Optional[AgentModel]:
         """
             This method updates an agent by id.
             

@@ -1,13 +1,16 @@
-import openai
 from typing import List, Dict, AsyncGenerator
-from .models import Agent
+from .models import AgentModel
 from .document_processor import DocumentProcessor
 from .config import settings
+from swarm import Swarm, Agent
+import os
+import json
 
-openai.api_key = settings.OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = settings.OPENAI_API_KEY
+client = Swarm()
 
 class ConversationManager:
-    def __init__(self, agent: Agent):
+    def __init__(self, agent: AgentModel):
         """
             This constructor initializes the conversation manager.
             
@@ -17,7 +20,14 @@ class ConversationManager:
             Returns :
                 None
         """
-        self.agent = agent
+        
+        self.agent_personality = agent.personality
+        
+        self.agent = Agent(
+            name=agent.name,
+            model="gpt-4o-mini",
+            instructions=agent.personality
+        )
         self.doc_processor = DocumentProcessor(agent.id) if agent.has_knowledge_base else None
     
     def get_context(self, query: str) -> str:
@@ -51,20 +61,18 @@ class ConversationManager:
                 Generator : The response messages.
         """
         context = self.get_context(messages[-1]["content"]) if messages else ""
-        system_message = f"Personality : {self.agent.personality} \n\n Context : {context}"
+        system_message = f"Personality : {self.agent_personality} \n\n Context : {context}"
         
         messages_with_context = [
             {"role": "system", "content": system_message}
         ] + messages
         
-        response =  openai.chat.completions.create(
-            model="gpt-4o-mini",
+        response =  client.run(
+            agent=self.agent,
             messages=messages_with_context,
-            temperature=0.9,
-            max_tokens=800,
             stream=True
         )
         
         for chunk in response:
-            if chunk.choices[0].delta.content is not None:
-                yield(chunk.choices[0].delta.content)
+            if "content" in chunk:
+                yield(chunk["content"])

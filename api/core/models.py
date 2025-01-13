@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import List, Optional
 
-class Agent(BaseModel):
+class AgentModel(BaseModel):
     id: Optional[str] = None
     name: str
     role: str

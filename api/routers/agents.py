@@ -1,7 +1,8 @@
 from fastapi import APIRouter, HTTPException, UploadFile, File, Form
 from typing import List
 from api.models import  AgentUpdate, AgentResponse
-from ..core.agent_manager import AgentManager, Agent
+from ..core.agent_manager import AgentManager
+from ..core.models import AgentModel
 import traceback
 
 router = APIRouter()
@@ -35,7 +36,7 @@ async def create_agent(
             "expertise": expertise[0].split(','),
             "personality": personality,
         }
-        agent_obj = Agent(**agent)
+        agent_obj = AgentModel(**agent)
         doc_contents = []
         if documents:
             doc_contents = [await doc.read() for doc in documents]
@@ -88,7 +89,7 @@ async def update_agent(
             AgentResponse : The updated agent details.
     """
     try:
-        agent_obj = Agent(**agent.dict())
+        agent_obj = AgentModel(**agent.dict())
         doc_contents = []
         if documents:
             doc_contents = [await doc.read() for doc in documents]
