@@ -4,7 +4,6 @@ from .document_processor import DocumentProcessor
 from .config import settings
 from swarm import Swarm, Agent
 import os
-import json
 
 os.environ["OPENAI_API_KEY"] = settings.OPENAI_API_KEY
 client = Swarm()
