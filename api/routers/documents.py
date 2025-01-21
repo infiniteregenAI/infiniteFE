@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException , UploadFile, File 
 import tempfile
 import traceback
-from ..core.document_generator import DocumentGenerator
-from ..core.document_processor import DocumentProcessor
+from core.document_generator import DocumentGenerator
+from core.document_processor import DocumentProcessor
 from api.models import (  
     GenerateSummaryRequest,
 )

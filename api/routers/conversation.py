@@ -3,9 +3,8 @@ from fastapi.responses import StreamingResponse
 from fastapi import BackgroundTasks
 import traceback
 from ..models import ConversationInput, GenerateDocumentInput
-from ..core.agent_manager import AgentManager
-from ..core.conversation_manager import ConversationManager
-from ..core.document_generator import DocumentGenerator
+from core import ConversationManager, AgentManager, DocumentGenerator
+import openai
 import traceback
 import json
 import os
@@ -14,6 +13,61 @@ import asyncio
 
 router = APIRouter()
 agent_manager = AgentManager()
+
+async def check_goal_relevance(goal: str, agent_expertise: list) -> bool:
+    """Check if the conversation goal is relevant to agents' expertise."""
+    try:
+        messages = [
+            {
+                "role": "system",
+                "content": (
+                    "You are an AI assistant that evaluates if a goal aligns with the provided expertise areas. "
+                    "Use your understanding of the goal and expertise areas to decide. Respond only with 'true' or 'false'."
+                ),
+            },
+            {
+                "role": "user",
+                "content": f"Goal: {goal}\nExpertise areas: {', '.join(agent_expertise)}\nIs this goal relevant to these expertise areas?"
+            }
+        ]
+        
+        # Correct async call for the Chat API
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=messages,
+            temperature=0.1,
+            max_tokens=10
+        )
+        
+        # Normalize and check response
+        result = response.choices[0].message.content.strip().lower()
+        return "true" in result
+    except Exception as e:
+        print(f"Error checking goal relevance: {str(e)}")
+        return False
+
+async def check_goal_completion(conversation_history: list, goal: str) -> bool:
+    """Check if the conversation goal has been achieved."""
+    try:
+        messages = [
+            {"role": "system", "content": "You are an AI that determines if a conversation goal has been achieved. Respond with only 'true' or 'false'."},
+            {"role": "user", "content": f"Goal: {goal}\nConversation:\n{json.dumps(conversation_history)}\nHas this goal been achieved?"}
+        ]
+
+        # Synchronous API call
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=messages,
+            temperature=0.3,
+            max_tokens=10
+        )
+        
+        # Normalize and check response
+        result = response.choices[0].message.content.strip().lower()
+        return "true" in result
+    except Exception as e:
+        print(f"Error checking goal completion: {str(e)}")
+        return False
 
 @router.post("/conversation/{agent_id}/chat")
 async def chat(agent_id: str, conversation: ConversationInput):
@@ -129,22 +183,30 @@ async def generate_document(conversation: GenerateDocumentInput):
         raise HTTPException(status_code=400, detail=str(e))
     
 @router.post("/conversation/{conversation_id}/chat-between-n-agents")
-async def chat_between_n_agents(conversation_id: str, agent_ids: list[str], number_of_exchanges: int, goal: str, background_tasks: BackgroundTasks):
+async def chat_between_n_agents(conversation_id: str, agent_ids: list[str], goal: str, background_tasks: BackgroundTasks):
     if len(agent_ids) < 2:
         raise HTTPException(status_code=400, detail="At least two agents are required for the conversation")
 
+    # Load agents and their expertise
     agents = []
+    all_expertise = []
     try:
         with open("agents.json", "r") as f:
             agents_data = json.load(f)
             for agent_id in agent_ids:
                 agent = next((agent for agent in agents_data if agent["id"] == agent_id), None)
                 if not agent:
-                    raise HTTPException(status_code=404, detail=f"Agent with id {agent_id} not found in agents.json")
+                    raise HTTPException(status_code=404, detail=f"Agent with id {agent_id} not found")
                 agents.append(agent)
+                all_expertise.extend(agent["expertise"])
     except FileNotFoundError:
         raise HTTPException(status_code=500, detail="agents.json not found")
 
+    # Check goal relevance
+    is_relevant = await check_goal_relevance(goal, all_expertise)
+    max_exchanges = 15 if is_relevant else 5
+    
+    # Initialize conversation managers
     conversation_managers = []
     for agent in agents:
         agent_instance = agent_manager.get_agent(agent["id"])
@@ -152,47 +214,53 @@ async def chat_between_n_agents(conversation_id: str, agent_ids: list[str], numb
             raise HTTPException(status_code=404, detail=f"Agent with id {agent['id']} not found")
         conversation_managers.append((agent["name"], ConversationManager(agent_instance)))
 
+    # Setup conversation file
     file_path = f"conversations_JSON/{conversation_id}.json"
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
-
     conversation = {
         "conversation_id": conversation_id,
         "goal": goal,
+        "goal_relevant": is_relevant,  # Add this field
         "messages": []
     }
+    
     with open(file_path, "w") as f:
         json.dump(conversation, f, indent=4)
 
-    concise_prompt = f"""Respond thoughtfully and analytically to the previous message, either expanding upon or questioning its points. Use specific examples, avoid repetition, and ensure your response reflects your unique personality and perspective. Stay concise (2-3 sentences)."""
-    temp_messages = [
-        {"role": "system", "content": f"Let's delve into this topic: {goal}. Respond in a manner that aligns with your personality while following this approach: {concise_prompt}"}
-    ]
-
     async def write_to_file(message):
-        try:
-            async with aiofiles.open(file_path, "r+") as file:
-                data = await file.read()
-                data_json = json.loads(data)
-                data_json["messages"].append(message)
-                await file.seek(0)
-                await file.truncate()
-                await file.write(json.dumps(data_json, indent=4))
-        except Exception as e:
-            print(f"Error writing to file: {str(e)}")
+        async with aiofiles.open(file_path, "r+") as file:
+            data = await file.read()
+            data_json = json.loads(data)
+            data_json["messages"].append(message)
+            await file.seek(0)
+            await file.truncate()
+            await file.write(json.dumps(data_json, indent=4))
 
     async def event_generator():
+        exchanges = 0
+        temp_messages = [
+            {"role": "system", "content": f"Goal: {goal}. Engage in a focused discussion to achieve this goal."}
+        ]
+        
         try:
-            for exchange in range(number_of_exchanges):
-                for agent_idx, (agent_name, conv_manager) in enumerate(conversation_managers):
+            while exchanges < max_exchanges:
+                # Check if goal is completed
+                if exchanges >= 3:  # Check after a few exchanges
+                    is_complete = await check_goal_completion(temp_messages, goal)
+                    if is_complete:
+                        yield "\n[Conversation goal achieved - ending discussion]\n"
+                        break
+
+                for agent_name, conv_manager in conversation_managers:
                     current_message = {"role": agent_name, "content": ""}
                     
-                    yield f"\nAgent {agent_name} (Exchange {exchange + 1}):\n"
+                    yield f"\n{agent_name}:\n"
                     
                     async for chunk in conv_manager.get_response(temp_messages):
                         if isinstance(chunk, str) and chunk.strip():
                             yield chunk
                             current_message["content"] += chunk
-                            await asyncio.sleep(0)  
+                            await asyncio.sleep(0)
                     
                     temp_messages.append({
                         "role": "assistant" if temp_messages[-1]["role"] == "user" else "user",
@@ -200,8 +268,15 @@ async def chat_between_n_agents(conversation_id: str, agent_ids: list[str], numb
                     })
                     
                     background_tasks.add_task(write_to_file, current_message)
-                    
-                    yield "\n---\n"
+                
+                exchanges += 1
+                
+                if not is_relevant and exchanges >= 5:
+                    yield "\n[Minimum exchanges reached for non-relevant goal - ending discussion]\n"
+                    break
+            
+            if exchanges >= max_exchanges:
+                yield "\n[Maximum exchanges reached - ending discussion]\n"
 
         except Exception as e:
             print(f"Error in event_generator: {traceback.format_exc()}")
@@ -211,7 +286,7 @@ async def chat_between_n_agents(conversation_id: str, agent_ids: list[str], numb
         event_generator(),
         media_type="text/event-stream",
         headers={
-            "X-Accel-Buffering": "no"  
+            "X-Accel-Buffering": "no"
         }
     )
 

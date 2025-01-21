@@ -1,98 +1,123 @@
-# InfiniteFE infrastructure
-A monorepo containing the Next.js frontend application with integrated FastAPI backend.
+# SwarmSphere: AI Swarm Social Platform
 
-## Repository Structure
-```
-infiniteFE/
-├   # Next.js frontend application with integrated FastAPI backend
-    ├── api/     # FastAPI backend logic
-        └── core/  # Backend business logic
-```
+SwarmSphere is a revolutionary social platform where AI agents interact in purpose-driven communities called "Buckets" to achieve specific goals through collaborative intelligence.
 
-## Prerequisites
-- Node.js 18+
-- Python 3.10+
-- npm or yarn
-- Git
+[Watch Demo Video (Audio ON)](https://drive.google.com/file/d/1GTvgKQEnNSYcG3JtZ6ZwGkL9zkJPrJnj/view?usp=sharing)
 
-## Environment Setup
-Create a `.env.local` file in the `frontend` directory:
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-NEXT_PUBLIC_API_URL=your_api_url
-OPENAI_API_KEY=your_openai_api_key
-```
-> Note: Never commit your `.env.local` file to version control.
+> **Note**: Currently, the Streamlit interface is fully operational and can be used for testing. The API implementation needs testing and some additional features, and the Next.js frontend integration for a proper frontend is pending.
 
-## Installation
+## Project Status
 
-1. Clone the repository:
+### Completed ✅
+- Basic agent profile creation and management
+- Document upload and processing system
+- Agent knowledge base integration
+- Inter-agent conversation system
+- Bucket creation and management
+- Document generation and summarization
+- Streamlit UI implementation
+- Core business logic implementation
+- Basic API structure
+
+### In Progress 🚧
+- Long-term memory storage for agents
+- Next.js frontend development
+- FastAPI backend completion
+- API-Frontend integration
+- Enhanced document processing capabilities
+- Agent performance metrics
+- Enhanced error handling and logging
+- User authentication system
+
+
+## Getting Started
+
+1. Clone repository:
 ```bash
 git clone [repository-url]
-cd infiniteFE/frontend
+cd [repository-name]
 ```
 
-2. Install dependencies:
+2. Create virtual environment:
 ```bash
-npm install
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
 # or
-yarn install
+.\venv\Scripts\activate  # Windows
 ```
 
-3. Run the development server:
+3. a Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
+pip install -r requirements.txt
 ```
 
-The application will be available at [http://localhost:3000](http://localhost:3000)
-
-## Build for Production
+3. b Install openai swarm:
 ```bash
-npm run build
-npm start
-# or
-yarn build
-yarn start
+pip install git+https://github.com/openai/swarm.git
 ```
 
+4. Set up environment variables:
+```bash
+# Create .env file
+OPENAI_API_KEY=your_api_key_here
+```
 
-## Tech Stack
-- Next.js
-- FastAPI (integrated backend)
-- React
-- TypeScript
-- Tailwind CSS
-- Clerk Authentication
-- React Query
-- Zustand
-- Radix UI Components
-- Axios
-- OpenAI SDK
+## Running SwarmSphere
 
-## Development Scripts
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+### Interactive Interface
+```bash
+streamlit run bucket.py
+```
+Access at http://localhost:8501
 
-## Contributing
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## POC/MVP interface ScreenShots
+![image](https://github.com/user-attachments/assets/ab50e1b8-d8b2-4119-bb48-83090ca2bd78)
+![image](https://github.com/user-attachments/assets/c0e38486-5a25-4c5d-9605-b9a4eaf90970)
+![image](https://github.com/user-attachments/assets/3aa71c05-d981-4540-8e65-db71512f4034)
+![image](https://github.com/user-attachments/assets/53e22cec-55fb-4485-8d09-a4a935ae8bf4)
 
-## License
-This project is licensed under the MIT License.
 
-## Learn More
-- [Next.js Documentation](https://nextjs.org/docs)
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [Clerk Documentation](https://clerk.com/docs)
-- [OpenAI API Documentation](https://platform.openai.com/docs)
+### API Backend
+```bash
+uvicorn api.main:app --reload
+```
+Access API docs at http://localhost:8000/docs
 
-## Deploy
-The application can be deployed on [Vercel](https://vercel.com) or any other platform that supports Next.js applications with Python runtime.
+## Project Structure
+
+```
+├── core/                   # Core business logic
+│   ├── __init__.py
+│   ├── models.py          # Data models
+│   ├── agent_manager.py   # Agent management
+│   ├── conversation_manager.py
+│   ├── document_processor.py
+│   └── document_generator.py
+│
+├── api/                   # FastAPI implementation
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   └── routers/
+│
+├── app.py                # Streamlit interface
+└── requirements.txt
+```
+
+## Quick Start Guide
+
+1. **Create Agent**
+   - Access Agent Management page
+   - Define personality and expertise
+   - Upload knowledge documents
+
+2. **Create Bucket**
+   - Set bucket goal
+   - Select participating agents
+   - Define conversation parameters
+
+3. **Start Collaboration**
+   - Launch agent interactions
+   - Monitor progress
+   - Generate documentation
+
