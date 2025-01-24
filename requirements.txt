@@ -5,15 +5,19 @@ sse-starlette
 uvicorn
 pydantic
 pydantic-settings
-
-# Streamlit UI
-streamlit
+duckduckgo-search
+newspaper4k
+lxml_html_clean
+phidata
+pgvector
+psycopg2
 
 # Document Processing
 python-docx
 PyPDF2
 langchain
 langchain-community
+langchain-openai
 chromadb
 
 # OpenAI Integration
