@@ -1,0 +1,133 @@
+
+          00:00
+          Bank Nation I'm here with Kevin auke the founder of gitcoin gitcoin has distributed over $60 million in Grants with over 4.2 million unique donations uh gitcoin also pioneered the use of quadratic funding and has given many crypto projects the foundation they need to become a real company leading to numerous success stories from companies projects and organizations who all got their start on gitcoin Bank lists included but also Unis swap optimism 1-in tornado cach and many many other brands companies projects that you are
+
+          
+          00:30
+          probably familiar with Kevin thanks for joining me today glad to be here Kevin you're kind of a builder Builder uh you're definitely a Code Monkey uh but you're also uh an operations guy an organizational guy and just a company Builder uh and then you've also just had a lot of exposure to Young upstarting companies as well so I'm really excited to kind of pick your brain here just maybe let's just dive right into it what kind of advice do you have as you've seen so many generations of crypto entrepreneurs come and go throughout the
+
+          
+          00:57
+          years what advice do you have that that comes to mind first yeah I mean glad to be here and glad to give you my advice but I'm kind of like advice advice is kind of like everyone's got one so like you know what does the audience want to hear from me uh I feel like getcoin is not the most financially successful project like you're probably going to have really amazing entrepreneurs on the show to talk about things like that and like if I was sort of pursuing that direction I think I'd be starting an L1 or an L2 or a dii
+
+          
+          01:21
+          protocol not that Founders all founders that start those things are motivated by money but if I if if that were the main thing then I think I would pursue something like that I think that like get the one thing gitcoin has done really good from the beginning is to be focused on our mission of helping communities fund what matters to them and uh you know as you me as you mentioned uh gitcoin has distributed $60 Million worth of funding to some of the top projects in their space and many of them the first capital they got was was
+
+          
+          01:49
+          off of gitcoin and I'm really proud that we've that we' built something that helps people get started in the space and receive their first capital so our mission is to fund what matters and get coin's been around for seven years we've had different products we've things up a couple different times but we always keep that North Star of our mission and iterate towards that mission over time and so uh I think if if any entrepreneurs out there are aspiring to follow in my shoes I would start with your mission and work backwards from
+
+          
+          02:16
+          that how did you develop your mission was it obvious and clear from day one did it iterate over time what was the process of actually like generating a mission yeah well I mean um uh before I was a web 3 founder I was a web two founder in VP engineering CTO type and one of the things that I always learned over my web 2 career was uh over 10 years everything I built was on top of Open Source software open source software allow this this amazing thing that you can just take open source module like a web server a database
+
+          
+          02:47
+          server like a python module off the Box off the shelf and build it into your app like 25 years ago we'd all be like purchasing Microsoft like software libraries and building them into our app and they'd be closed source and they'd have all this DRM in them and I just think it's first off it's like open source is this beautiful thing and um everything I built in my web 2 career was off of Open Source software and I was starting on third base with every single new build that we were doing because I got all this amazing software
+
+          
+          03:13
+          off the shelf and so uh when gitcoin was incepted our mission was to grow open- Source software which is basically my recognition that uh hey now we're going to have open source money maybe some money that like in the old Financial system would have gone to some back office on Wall Street maybe that'll go to open source software developers in this new crypto world and we wanted to be the the rails through which that Capital was deployed to open source software and that Vision actually I think largely came true and then um you
+
+          
+          03:40
+          know as I met vitalic buan and started working with him on quadratic funding he would always talk about this thing called public goods which is this category of goods that are non-excludable and non- ralist things that everyone depends on but no one pays for and open source software is an example of a public good it's a public good for the ethereum community that people are out there writing Prismatic labs Nimbus software that the type of software that secures our bags that's a public good to ethereum and so uh as I
+
+          
+          04:06
+          got public goods pilled the Mission evolved from grow open source to build and fund public goods and then uh the most recent instantiation of our mission is fund what matters and the reason for the it the change from fund public goods to fund what matters is that no one outside of the space really knows what public goods are and so I found myself at like cocktail parties like having to give people like an economics lecture to explain what I do but if I say fund what matters then you sort of intuitively
+
+          
+          04:33
+          understand that we're funding things that matter to people and if public goods matter they'll naturally rise to the top so the the the mission has evolved and our articulation of it has evolved over time but uh we've always had the mission as our North Star and I think that's why getcoin continues to live through all of its different iterations towards that dream of funding what matters yeah Kevin I've always known you to be a man of mimetics uh discovering like how to uh meme things into into people's brains uh and I think
+
+          
+          05:00
+          coin as a whole has also done that for ethereum uh the idea of funding public goods is something that um uh I don't maybe gitcoin doesn't have like a monopoly over the idea of it but it has definitely produced a cultural shelling point that the rest of ethereum has has rallied around and and I'm wondering as a result of company building like building the the gitcoin organization what impact has establishing that cultural like uh shelling point in ethereum has that uh impacted the gitcoin organization when it comes to
+
+          
+          05:29
+          like Talent acquisition and team organization uh like what were the downstream effects of like being so Mission oriented well I mean I think the downstream effects of being Mission oriented is that you get missionaries instead of mercenaries and when you can be paying any software engineer 400k a year to work on your project uh it sure is more effective to have missionaries than mercenaries but um you know I'd like to say that like first off like I consider gitcoin and ethereum to be shelling points for the hopeful we're
+
+          
+          05:56
+          inventing 21st century Institution for funding public goods at at the exact time that our Industrial Age institutions are decaying it is Springtime for onchain coordination but it is not about getcoin shout out to giveth optimism Dow drops everyone else that is working on this mission of funding what matters in the web3 ecosystem and my approach to this is about building a movement not about building a company I we are going to build uh gitcoin into hopefully an important organization but for me it's
+
+          
+          06:25
+          about the movement of funding what matters and funding public goods and I want to s and create a shelling point for that movement and and like by the way like I think that the reason that we have the this value in the ethereum ecosystem is vitalic Vin and his emphasis on funding public goods and inventing mechanisms for funding public goods like retroactive public goods funding and like quadratic funding I mean I'm just so I mean he's really a once in a generation brilliant mind that is thinking so far ahead and has
+
+          
+          06:55
+          implanted the public goods culture in ethereum and I think that uh I'm just trying to sort of take those ideas and build a movement around them and maybe part of being a meme Lord is is helping people understand them a little bit more tangibly than they they would otherwise but all credit to vitalic and to the distributed movement of people who care about this mission for for building it I think I'm just serving as an accelerate and maybe a connector in it what do what do you uh wish that you had known if you
+
+          
+          07:20
+          had been able to go back to the start of when you had founded gitcoin or maybe even earlier uh what would you tell your your younger self what advice would you bring back in time oh man I'm so modularity p build these days I built get like hand to the the sky in front of bank's huge audience I built get getcoin as a centralized monolith and as a company in 2017 and it's just because that's all I knew how to do but oh my gosh modular software the Unix philosophy is just this beautiful profound thing in which you build
+
+          
+          07:48
+          modular software it does one thing well and it's interoperable with all these other types of programs if I had just built coin getcoin as a protocol and modular as this at the start we wouldn't have had to spend the two years is tearing down the centralized platform into rebuilding it into being a modular architecture in the future and you know I see modularity up and down the stack in uh you know the modular blockchain thesis which you all have talked about a lot to how we're building daps and how
+
+          
+          08:14
+          we're building protocols and I also see it at the social layer so I'm really a big fan of of each different company in the space doing one thing and doing it well following that Unix philosophy and then building that movement together uh I think that in the web in web 2 we like the web 2 Playbook the Fang Playbook was to build a fom as big as possible and then acquire your competitors and put everything into the Bezos mode or the Zuckerberg mode or the the the Google mode and it's just not that way in web 3 we all build little
+
+          
+          08:44
+          modules that do one thing and do them well nosis safe moolo Dow getcoins aloe protocol they're all interoperable with each other and because of that we're building a movement that is leveraging these modular building blocks to go faster each each time someone enters the chat like if I go into a hackathon for ethereum there is so much open source software available off the shelf that I can get a I can get erc20 tokens erc721 tokens nois safe quadratic funding on aloe protocol like I get those all those
+
+          
+          09:14
+          off the shelf and I'm starting on third base when I'm building my new Venture in ethereum and that's how that's why ethereum is inevitable is because we're creating exponentially more value the more open source software gets shipped but it can only be done if uh if you start off modular so uh uh listener if you're going to build a centralized monolith let me shake you out of it build a a modular protocol so what should an aspiring young entrepreneur do if they are just starting uh their company they're just making their first
+
+          
+          09:41
+          few hires they're just thinking about building their first new protocol application company something what should they know in advance in order to follow follow suit on that yeah well I mean I I think that the thing that you want to do is you want to figure out who's actually going to care about your protocol and find what's called Product Market fit or protocol call Market fit in the web 3 ecosystem and when I reflect on getcoins Journey let me just play it back to you at a very high level in 2016 in 2017 I started six failed
+
+          
+          10:09
+          side projects and the seventh project that I started was gitcoin and if I hadn't had the learnings from just throwing spaghetti at the wall for those six projects then I never would have gotten gitcoin funded and and started to build around it and then when gitcoin started to get heat we had six different projects features that were on on gitcoin and and uh it turns out that the ones that uh people actually cared about was the fifth one it was getcoin grants and then getcoin grants was like a rocket ship and um you know even that we
+
+          
+          10:40
+          we ran nine quadratic funding protocol or uh nine quadratic funding rounds on getcoin grants before we realized holy if you want to be infrastructure for funding public goods it has to be decentralized incredibly neutral because that's our value for what we fund public goods for and we had to tear that down and rebuild it as a protocol so like I guess you can you can think of like my history of of learning in public and and building in public is building a bunch of stuff and then finding the thing that
+
+          
+          11:05
+          people actually care about and have heat and then like pinching and zooming on that and throwing everything else else out over time so it's about going Broad and then deep and then Broad and then deep until you find something that deeply resonates with the community or I don't know maybe someone more lucky or talented than me will just fall ass backwards into it on the first try but that hasn't been my experience Kevin as long as I've known you I've always known you as a guy who uh is pretty like relentless uh very
+
+          
+          11:30
+          high energy always building always doing something like eyes uh like eyes up on the horizon and like kind of just Tunnel Vision on the goal like how do you where do you get the energy from I'm sure it doesn't always feel like you have the energy for every single day when it ter when it comes to like motivation and morale and just always be building like how do you keep up the energy any advice or perspective you have there I mean I just try to zoom out when you want perspective zoom out I mean I I just
+
+          
+          11:56
+          think that we're in this incredible time in which the old institutions are failing and clearly Industrial Age institutions for funding public goods in our finance system are not working out you know just listen to an Eric Vorhees speech if you need a little dose of of inspiration and um you know for me it's it's what a time to be alive our old institutions are decaying and we have a once in a generation opportunity to create a Lifeboat to to Leverage The Magical beauty of of ethereum and programmable money we can program our
+
+          
+          12:27
+          values into our money and that means that we can build economies that reflect our values like this is something that only Central Bankers have been able to do for the last 200 years and before that money was never programmable like holy what a time to be alive and I just think if you grasp the gravity of the moment and the importance of what we're doing building anti-authoritarian tech building economies that reflect the values that we want to have imbued into money how can you not be motivated by by
+
+          
+          12:58
+          that by that vision and the opportunity that's been provided to us I mean open source software is this incredible thing where we're standing on the shoulders of giants we have the internet and we have programmable money it's because of italic boin and lions Li trols and oh I'm forgetting the guy who invented the Internet um but uh you know like we're just standing on the shoulders of giants and I think this is our moment of opportunity to do something with it and that's what gets me going in in in the
+
+          
+          13:24
+          morning Kevin thank you so much for joining me today this was fun thanks for having me David TR wait Kev before uh I let you go you got a book uh what's your book about yep so uh I just wrote a book it's entitled the onchain capital allocation handbook so basically uh the idea here is that uh Capital allocation is something that we all do every day without even thinking about it when you buy coffee for a friend you're allocating Capital when you're paying your bills you're allocating Capital when you're building an ecosystem in
+
+          
+          13:53
+          web3 you're allocating Capital so basically what I did was um and you know for the listeners who who are watching ing on YouTube you can see the cover uh you can see the cover of it I've basically cartography the different Capital allocation mechanisms that exist in web 3 and given the the reader a journey from present mechanisms to Future possibilities so basically the idea is that we've got an opportunity re opportunity to rewrite how ecosystems are built and how Collective action is incentivized and so I think that I my
+
+          
+          14:26
+          opportunity to to the reader is just to present you all of the different options from nosis safes to Mok Dows to getcoins quadratic funding to all of the different amazing opportunities that you have to earn and to build incentivization mechanisms in in web 3 so if you're if you're down the rabbit hole and you're looking for a dose of inspiration or to to look over the frontier you can check out the onchain capital allocation book you can get it at alob book. gitcoin docco or follow me on Twitter I'm twitter.com aaki I will
+
+          
+          14:57
+          be tweeting about the uh the book as the launch comes up in the middle of July cool Kevin thank you so much thanks Dave
+
+          

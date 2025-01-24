@@ -1,0 +1,193 @@
+
+          00:01
+          [Music] [Music] it's Devcon hello everyone how are you thank you all right uh I'm opening up this stage so I think we got to bring a little bit of energy my talk today is entitled onchain Capital allocation that sounds like a mouthful but what I'm going to talk about is how do we distribute resources or funding in order to meet our shared needs from making a profit to making an impact and how do we do that on chain we're going to talk a little bit about who I who I am and why I'm qualified to talk about this space then
+
+          
+          00:44
+          we'll talk about the design space and then I want to talk a little bit about uh a capital allocation protocol that getcoin is working called working on called Alo protocol so uh let's get into it over the last 22 quarterly rounds gitcoin of which I am a co-founder has Ed the funding of public goods enabling communities to fund their shared needs we funded $65 Million worth of funding through 5 million unique donations mostly through quadratic funding is anyone in the audience a getcoin donor all right half the hands going up
+
+          
+          01:16
+          amazing in 2020 my hero vitalic buin called gcoin grants a significant pillar of the ethereum ecosystem because so many projects were relying on it for some or all of their support and now we are taking gitcoin from working for the ethereum Eco system to now working for any evm based community so basically we think that grants equals growth for your community and we're taking what worked for the ethereum ecosystem and making it available to any layer 2 defi project NF NFD Community uh in the evm ecosystem
+
+          
+          01:48
+          and enabling them to have the same type of growth and resilience that gitcoin has brought to the ethereum ecosystem so we've allocated $65 Million worth of capital as of 2024 over the last seven years and I think that that's what makes me qualified to talk about the design space of onchain capital allocation I recently written a book about onchain Capital allocation which I'm releasing at Devcon this is a approachable guide to funding what matters in your ecosystem and I think it's my opportunity and my pleasure to
+
+          
+          02:21
+          cartography this design space and make it comprehensible to people in the ethereum ecosystem who are building the next batch of funding infrastructure so that we can find better ways to fund what matters and that's what this talk is about so onchain Capital allocation is about onchain ways to finding for to how we spend money so anytime you're paying a bill you're buying a coffee you're flying to Bangkok you're allocating Capital but at scale as you start to deploy more and more capital capital allocation becomes a full-time
+
+          
+          02:53
+          job and it becomes a multiplayer game for you and the people around you to try to figure out how to reach your your goals together so at scale things like Regional government funding or Venture Capital are capital allocation and they're not only full-time jobs for the people that are doing them but they're existential for the communities that they serve whether or not you fund a project in your ecosystem whether your ecosystem is a physical ecosystem like a city or your defi ecosystem can be existential to the communities that are
+
+          
+          03:25
+          served there and so this is a really important design space because we want to make sure that we're making the right decisions about funding our shared needs and I think blockchains have a lot to bring to the capital allocation design space Legacy Capital allocation suffers from gatekeeping and it's not precise and it's not scalable so you think about Robert Moses the power broker or anyone that's deploying capital in a city or in a digital Community they sort of become a Power broker for these ecosystems
+
+          
+          03:57
+          because people are coming to them looking for money it changes the relationship and it inverts the power from the people to the people who actually have the capital and the people in these Ivory Towers and in these cities City Halls don't know how to deploy capital in a way that helps people because they're in their Ivory Tower they're not in the streets engaging in the everyday experience of being a citizen in these communities we also see that rfps and grants and investments in these ecosystems can be
+
+          
+          04:28
+          mirrored in bureaucracy if anyone 's ever gone through a Grant application process in an NGO you know how painful the process can be pages and pages of paperwork that doesn't actually match what is actually going on in the ecosystem creates a lot of administrative overhead and at worst some of these Nos and Grant giving organizations become the mission themselves instead of the mission being the mission and I think that this is a really suboptimal way to build an e system but luckily now we've got
+
+          
+          05:03
+          blockchains and we can program our values into our money at scale and so I think that onchain Capital allocation is going to be accessible meaning that anyone who has a cell phone or an internet connection can access onchain Capital allocation it's going to be transparent because of the inherent transparent nature of blockchains okay so um the uh really cool thing about blockchains is that uh I have the same access to the state that the state of the blockchain that someone like Drome Powell has access to um they
+
+          
+          05:36
+          can be Democratic which means that we can fund what matters to Everyday members of these communities on the basis of what the median citizen wants and we can do it precisely at scale because we're building Capital allocation into these blockchain-based ecosystems and and we can do it at scale so there's no longer the bottleneck of a central Grant administrator that we have to deal with they can be Incorruptible at the base layer because of the way blockchains verify truth every block at the base layer of these systems that we
+
+          
+          06:09
+          can be sure that this shared truth that we're looking at is the same for everyone of the participants and they can be evolutionary one of the coolest things I think about gitcoin grants in our history over the last six or seven years is that every gitcoin Grant round Builds on the last one we go through this iterative development Loop where we have a grant round and then we learn from what from it and then we design a next Grant round that hopefully accommodates all of the learnings that we had from the previous Grant
+
+          
+          06:40
+          round why does Capital allocation matter I think we're building a stack for a new Financial system in this space a Staker and other stakers that are running the ethereum nodes are building the ethereum network which is a set of shared State upon which we can deploy a smart contract and that smart contract we can program our values into our money we can build economies that are more coordinated than they ever have been before on top of that in 2017 there was a wave of tokenization and we have tokenized assets to the tunes of tens
+
+          
+          07:14
+          and hundreds of billions of dollars of capital and I think that you've now got Central bankers and traditional Finance years on CNBC talking about how we're going to tokenize the entire economy that seems really really cool to me and what I want you to see after this talk is what we're building on top of this shared infrastructure the top half of the stack is about how do we build a political economy that supports human coordination the solving of coordination failures and ultimately Collective
+
+          
+          07:44
+          action in a 21st century Network driven way okay so Capital allocation the layer of the stack in which we're funding what matters to each other is how we're going to solve coordination failures and do Collective action in the 21st century coordination failures are just a term for Anytime there's a group of humans who want to create an outcome X and they're not able to create that outcome X because of their inability to coordinate their shared resources that's a coordination failure and it goes from
+
+          
+          08:13
+          everything in your local from things in your local community to Global examples so things in your local community might be how do we fund our our infrastructure our transportation networks how do we fund our parks to Global 21st century problems like Rising authoritarianism or climate change those are all coordination failures so we can solve these things with better Capital allocation and I'm going to give a couple examples of how we do that over the next couple slides so gitcoin itself is known mostly for quadratic funding
+
+          
+          08:45
+          that is one Capital allocation mechanism that we have deployed and it's a mechanism invented by vitalic boin Glen W and Zoey hittig and the the way that this mechanism works is that we reward contributors based off of the the number of contributions to their projects not the amount that they have funded to each project so you set out a matching pool you'll allow grants to apply to be a part of a matching campaign and then the contributions to those grants will be matched by the centralized matching pool
+
+          
+          09:17
+          on the basis of the breadth of cont contributions to those grants as opposed to the depth okay so we're programming our values into our money and we're optimizing for the preferences of the poor four and the many over the rich and the few because we are now matching each Grant on the basis of the number of contributors to their project not how much was given to them so uh a really simple math like without any math example of this is that uh if if you have a grant that has $100 from a 100 contributors and I have a grant that has
+
+          
+          09:51
+          $100 from one contributor and we're both in a quadratic funding Campaign together you'll get 99% of the matching pool okay so the culture that this enables in the communities that are served by quadratic funding is a more democratic culture where the preferences of the body politic are represented in the capital allocation decisions as opposed to what a central power broker would want another mechanism that's been gaining a lot of traction over the last couple years is retroactive funding popularized by vitalic buin and the
+
+          
+          10:26
+          optimism ecosystem retroactive funding is based on the idea that it's easier to reward public goods and other other uh projects that are good for your community on the basis of hindsight hindsight is 2020 it's easier to see if something was good with the benefit of hindsight than it would be to speculate on whether it's going to be good in the future and so what I think is really neat about this is that it creates more assertive and decisive funding decisions about what we should be building into
+
+          
+          10:56
+          these ecosystems and yes there's a trade-off there in that you don't get uh money when you're first starting out but someone could build proactive funding mechanisms on the basis of future retroactive rewards and I think that that's a really cool thing about the modular software architecture of the ethereum ecosystem you can build uh an add-on to this system that proactively funds things maybe with like say a prediction Market that uh is expecting future retroactive rewards so the culture that I think that this really
+
+          
+          11:26
+          creates in these ecosystems is a culture of karma where if I think that I'm going to be able to do good for an ecosystem and I know that there's going to be retroactive rewards for that later I can make the investment now on the Assumption of a future retroactive award another mechanism that's really taking off in the ethereum ecosystem and I just want to celebrate is the protocol Guild which is a registry of execution layer and consensus layer clients that support the very infrastructure that we
+
+          
+          11:57
+          rely on in order to run ethereum on our home staking devices and we rely on in order to clear transactions in the ethereum network it's a registry of about 180 execution layer and consensus layer developers who are able to contribute to the foundation of the network and they curate the registry themselves so basically they make additions and subtractions from the registry in order to keep a aggregation of who's doing this important work at the base layer of the ethereum network and this makes it
+
+          
+          12:32
+          very easy for Dows and evmb based projects to fund the infrastructure upon which they rely uh protocol Guild in 2023 was able to raise a hundred million to support protocol developers in the ethereum ecosystem and I think that this is kind of like a 21st century native example of what collective bargaining looks like it's an aggregation of supply and demand for talent and and uh and funding of talent in the 21st century so these are a couple examples I don't have time to go through all of them of
+
+          
+          13:06
+          different onchain Capital allocation mechanisms that are growing in the infinite Garden that is ethereum and one of the things I think that's really cool about this is the fundamental plurality of these mechanisms in that they're all compatible with each other your ecosystem can run protocol Guild retroactive funding and quadratic funding and we can program our values into our money create a culture that is supported by these institutions and I think that these things are fundamentally compatible with
+
+          
+          13:37
+          each other in that they do complimentary things in these ecosystems uh quadratic funding is really good at creating a democratic culture retroactive funding is really good at creating a culture of Karma and protocol Guild is really good at supporting the infrastructure upon which we all rely and so I think that this philosophy that we've got at the base layer of the e eum network of client diversity where we've got many different clients that are supporting the ethereum network could be supported and and
+
+          
+          14:08
+          extended at the higher levels of the ethereum ecosystem and we can have a philosophy of practical pluralism where these things all work together in order to create a culture that we're really excited about and that uh and that supports public goods in such a way that's antifragile it's fundamentally plural if one of these things goes away or one implementation of it away then we still are able to fund our public goods and to fund our shared needs so that's the design space of onchain capital allocation and hopefully you've seen
+
+          
+          14:38
+          some of these mechanisms out in the wild either on gitcoin or on optimism or in the ethereum ecosystem and I want to talk about the future of the design space for the next five minutes of my talk and how gitcoin is moving to a multi mechanism future and enabling more and more people to do Capital allocation in their ecosystems with Alo protocol which is our new mechanism toolbox for software developers who are able to deploy uh mechanisms into these ecosystems so basically gitcoin is known for quadratic funding and we're moving
+
+          
+          15:11
+          to a multi mechanism future in which we're going to support A diversity of capital allocation mechanisms in our getcoin grants program for our clients and customers and to developers at large so we believe in a plurality of different funding mechanisms for the ecosystem and we're releasing at Devcon this year Alo protocol 2.1 which is a suite of different modules that you can use to fund what matters in your ecosystem and each module is individually containing well-documented Fork ready audited code
+
+          
+          15:46
+          with Crystal Clear documentation that allows you to assemble a capital allocation mechanism for your ecosystem that meets your own needs so the core components of these Alo protocol is the registry which is a registry of different projects in your ecosystem that could be funded either for impact or for profit okay so gitcoin is not just for impact anymore we're actually working with a couple investment Dows on how do they get upside in their ecosystem Alo strategy which is kind of like the brains of Alo protocol it's an
+
+          
+          16:19
+          opinionated way of funding what matters in your ecosystem and then Alo kit which is a tool that allows you to launch a web app on top of these think of it as like a gitcoin grants clone in less than a couple minutes okay so that's Alo protocol and we really see the future of this design space being a plurality of different Capital allocation mechanisms and we want to build for the plurality and spin the design space faster than we've ever done before by making it easier and faster for people to invent the next
+
+          
+          16:51
+          gitcoin in this next Market cycle so you can think of aloe protocol as a circuit that takes in tokens and data and spits out an opinionated distribution of those tokens to different recipients in that ecosystem what Taiwan semiconductor did for Semiconductor and Chip manufacturing we want to do for onchain Capital allocation so instead of etching into silicon a circuit for moving information we're etching into the hardness of ethereum a circuit that allows you to allocate Capital within your ecosystem
+
+          
+          17:26
+          in a fundamentally 21st century native way we want to build aloe into the protocol for doing Capital allocation so the core components here are tokens made possible by erc20 and then the data layer made possible by the Alo registry but we also support other registries out there the strategy layer which is the brains of the operation decides how to route the tokens from an allocation perspective but also from a distribution perspective we make it easy to distribute across a Merkel distribution strategy a super
+
+          
+          18:01
+          fluid drips sabler cross L2 uh modules are all things that we have planned on the road map and so this modular nature really makes it easy to sweep the design space of capital allocation by subbing out modules according to your own needs so erc20 makes it really sub easy to substitute out different tokens the aloe registry is abstracted in such a way that you can abstract out uh sorry you can substitute in different Registries the strategy layer makes it really easy to substitute different funding
+
+          
+          18:35
+          structures for your ecosystem whether that's quadratic funding retroactive funding conviction voting or any other funding strategy that you can that you can dream of in your ecosystem and so it's this modular architecture that I think is really going to allow us to explore the plurality of the capital allocation design space on chain and to build what we need as an infrastructure rure to fund what matters in the 21st century whether your project is an onchain project or if you're a city state that's
+
+          
+          19:06
+          just trying to fund better roads hospitals uh and other things in your ecosystem so I'm really excited about the different permutations of ways that we could combine these modules spin the design space faster of funding what matters to Everyday People in addition to the people who are building the infrastructure themselves and I Envision a future in which we're going to build a capital allocation system that serves the needs of humanity as we move into the 21st century and that's what we're moving towards at gitcoin and at Alo
+
+          
+          19:39
+          protocol if you're interested in learning more you can check out our developer docs at docs. all.in.one who is building on top of aloe can get funding from our gitcoin grants program so there's a Fun mtic Loop where we're using gitcoin to build gitcoin to build gitcoin to build gitcoin and hopefully the better uh that results in better funding infrastructure for the world and for ethereum that is my talk thank you for having me Dev [Applause] conon thank you very much for a super nice talk um yeah it's uh yeah quite
+
+          
+          20:16
+          inspiring and I think it's like one of those things that blockchains and ethereum sort of promised that you know we would have such uh nice applications and we would have transparencies and ways to vote and move uh move uh assets around so it's really great that you're Building Systems and applications like this and allowing others to build the same as well congrats on the new protocol thank you um we have some questions from the audience I'm really happy that uh people actually submitted questions thank you very much um I think
+
+          
+          20:47
+          one of them I can go with the first one and they asked I was running a grants program in web 3 with a monthly value of 100K I could not deploy most of it what are some thoughts of where web3 Grant programs are going wrong including my myself yeah well uh this is an evolutionary design space and so I think that the fact that sometimes these programs go wrong doesn't mean that you shouldn't do the grants program it means that you should iterate towards your ultimate goal and one of the things that
+
+          
+          21:13
+          I think that grants programs do that we need to get better at is defining their goals upfront so it's really impossible to say in the abstract what should I be doing for my grants program you need to Define what is the purpose of the grants program are you building an education grants program are you building a protocol developer grants program or something else what are the kpis how are we going to uh design around those kpis these grants programs are relative to their design criteria and so you can
+
+          
+          21:43
+          check out the gitcoin grants canvas which is a book that we wrote about how to design a grants program if you want to get better at running grants programs so start at the foundations exactly very nice thank you um another one a bit of a technical one which I liked um was how does quadratic funding address cibil attacks cibil attacks are sock puppet attacks that's basically uh if myig Grant was losing out in a quadratic funding round I could spin up a bunch of sock puppets and pretend to be a bunch
+
+          
+          22:11
+          of users and we've attempted to solve that it's never really fully solved uh with passport uh which is a identity product that we've incubated at gitcoin is now spun out of gitcoin and then we're also using this thing called cluster mapping which uses some really Advanced Data science to Cluster contributions to each other and to root out civil attacks so uh tldr use passport use all the other great anti-il tools out there in the ecosystem and use data science to solve those problems nice um we have time for one more
+
+          
+          22:47
+          question and there's one more here um how can we incentivize allocating Capital to public goods which don't directly benefit web three uh for example climate impact yeah uh my vision for how to how to do this is that we basically fund our shared needs in the blockchain ecosystem by contributing to public goods funding for our own ecosystems and if we can set a norm that just 10% of that Capital will go Upstream to ethereum to open source to the world then as ethereum scales and as web 3 scales eventually
+
+          
+          23:20
+          we'll have a lot of funding that goes Upstream to those global and planetary public goods the other thing that we can do is we can go to governments and NOS and say hey we're better at allocating Capital than you are look at all the ways that we've done that please use our infrastructure and so those are two ways that I think over the next decade that we're going to be solving those systemic problems hopefully with onchain Primitives very nice um we have one minute left for question so I'm going to
+
+          
+          23:47
+          be selfish and ask a personal not personal question but one that I have myself okay and you talked a lot about plurality and this is something that I've been hearing more and more about this week actually and it was it seems to be a sort of new thing that's like coming up in conversation can you talk a bit more about what you mean by that or maybe even just Define it a little bit if it's not clear yeah so plurality it basically means that you don't put all of the weight of your expectations on one system or mechanism or group of
+
+          
+          24:17
+          people and so plurality means that we celebrate the diversity of approaches to solving problems and you see this manifested in the need for the ethereum network to have client diversity at its base layer if valal talked about it in his talk this morning but basically uh if one execution client goes down then the other ones can pick up the slack and uh you know that's an example of how plurality is a primitive a meta primitive for resilience in these ecosystems and so I just think that we should take that philosophy of plurality
+
+          
+          24:52
+          and apply it to our public goods funding layer of the infrastructure not just the the base layer of the network and hopefully that means that we get more funding for more directions and we're not overly Reliant to or and beholden to any of them very nice cool everything is so much emerging like I mean it's it's good to it's happening yeah um real quick uh someone asked where you can get the book you can get it at alow book. gitcoin doco it's a free PDF or for 20 bucks you can get it shipped to your
+
+          
+          25:19
+          house anywhere in the world thanks thank you very much let's thank the speaker again
+
+          

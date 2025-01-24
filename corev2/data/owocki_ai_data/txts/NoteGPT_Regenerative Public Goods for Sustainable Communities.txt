@@ -1,0 +1,345 @@
+
+          00:02
+          [Music] I think we have a really great panel today we're going to go ahead and jump into it and I'm going to let these guys introduce themselves we'll get into understanding what regenerative public goods for sustainable communities actually looks like cool so Kevin we can start with you brother and you can go ahead and introduce yourselves and you guys go down and we'll take it from there yep hey I'm Kevin Milwaukee I'm an American software engineer and entrepreneur I'm mostly known for founding gitcoin which has funded about
+
+          
+          00:35
+          $65 Million worth of public goods and open source software in the ethereum ecosystem all right uh David Casey here I run a organization called funding the commons uh we do conferences hackathons and residencies exploring funding mechanisms for public goods uh as well as we've been starting to run funding experiments um my name is Michelle Bowens I'm the founder of the P2P Foundation which is basically an observatory of all things peer-to-peer uh in this kind of origin I like to say it's where Satoshi publishes white
+
+          
+          01:17
+          paper um and may I don't look like it but I'm in a sense a local because I've lived in changai for 20 years now and apparently the first person who tweeted about Bitcoin yeah absolutely oh nice cool so the first thing we want to talk about is what actually are regenerative public goods for sustainable communities and this I think this this conversation is really important because one of the things we haven't wrapped our head around at all with parallel societies public goods in general is first of all there's a
+
+          
+          01:52
+          there's a governance concern there's a there's a concern around how we govern these communities and especially how we get funding into these communities that can be stable and regenerative and allow these communities to grow over time so this is really going to be a focus of the discussion so let let these guys take it from here what are regenerative public goods for sustainable communities yeah I mean uh for me the easiest thing to do is take that word by word uh so public goods are things that
+
+          
+          02:21
+          are non-excludable and non- ralist they're Goods that uh are hard to produce and sell via a scarcity based model like something you would get uh when you purchase something on the Internet because there are just things that are available for free and they can't be excluded so things like open source software are public goods and public goods can be a huge value add to society but one of the problems that we have in our economies is that it's really hard to encourage entrepreneurs to work on public goods because they
+
+          
+          02:50
+          have no way to monetize them and so that's the public goods part of the phrase and then the the next word on there is regenerative which to me just means that the resource availability of the system goes up over time as opposed to a degenerative system which is degenerating its public goods over time so to me regenerative public goods just means that you're getting more resource availability of public goods like open source software cryptography and things of that nature in your ecosystem all right yeah I think he uh
+
+          
+          03:26
+          basically encapsulated it uh I would add that uh uh a regenerative public good uh the way I look at it is a public good that continues to regenerate and grow itself over time or in other words expand uh its capacity to do public good and uh getting into the sustainable communities piece um when a funding stream is continuous uh a community is able to plan over time uh whereas if uh funding stream is kind of one-off grants that a community is struggling to reach for and continuing uh to expend time and energy uh seeking
+
+          
+          04:03
+          funding um then it becomes less sustainable yeah guys when you talk about this too it seems like there is a an an asymmetry or a disconnect between traditional funding models versus some of the funding models that you guys are discussing can you maybe elaborate on that as well as like historically how have these systems been funded or how what does funding look like historically yeah I mean I think that when you say traditional funding models I think of market-based funding models where uh I pay you X and you give me Y and you get
+
+          
+          04:41
+          some revenue from producing that good and I get the good and you get a signal that uh the market has demand for that because I purchased that from you and the problem with public goods is that there's uh traditionally in in many societies they've been provided by the government and the government you know as we all know has a model where they collect taxes from their citizens and then they try to administer national public goods things like National Defense Transportation networks clean air clean
+
+          
+          05:12
+          water things things like that um I feel really unpopular talking about statism uh at a crypto conference but um the one thing I'll say here is that like I Envision a two by two Matrix here of um like public versus private Goods is the xais and then uh is there Market signal about what people are demanding or not as the other axis and you can kind of think of private Goods as like their they private Goods uh which means they're excludable and they rivalis and you get a good s people entrepreneurs
+
+          
+          05:42
+          get a good signal from the market of what's available and what's not and then the other quadrant is a public good where someone in the government doesn't really have a good sense uh as a central producer or as a central power broker of what the market is actually demanding and uh so basically I think that the Holy Grail of these system for me is to produce public goods but to actually have input a market feedback mechanism to what public goods are in demand from the body politic whether that's uh a
+
+          
+          06:11
+          geographic body politic or a dow or or a crypto ecosystems body politic for me that's the Holy Grail is a public good where there's actually signal and intelligence and network of where to provision public goods and to me designing a good Capital allocation mechanism for public goods is is solving that problem is moving across that true by Matrix of getting a public good provisional system that also generates signal yeah exactly and I would add in in other words uh that the communities at the Grassroots level are often um
+
+          
+          06:46
+          most connected to the the needs and um similar to Market signals it's uh how to integrate uh the feedback from the Grassroots um into the systems rather than um prescribing or assuming solutions from the top down which often in the case of kind of nation states and and more uh uh kind of hierarchically structured systems uh with good intentions fail because of a lack of feedback signals and um in Kevin's word's Market signals yeah maybe I can give a bit of a historical uh Arc so I think uh basically empires have Commons which are
+
+          
+          07:28
+          self local self-organized commun communities which kind of like function as a have a dampening effect uh on the extractives of of the imperial system then under capitalism basically the commons are enclosed they tend to disappear um and they're replaced by the state so I think we should make a difference between Common's goods and public goods and public goods in my eyes are defined as you know more linked to the state and the problem with the state public goods of course is that they atomize people in consumers of of the
+
+          
+          08:00
+          state of a state service so they kind of tend to destroy the local solidarity um and I think in this period because of the the transnationality of Finance the capacity of the State uh to provide public good is weakening and so we're looking for Alternatives and the Alternatives might be what we are trying to do which is translocal uh funding of local common goods uh and so that's kind of new that we're trying to do this is to create a new system to fund uh common goods right and I think it's probably also worth uh
+
+          
+          08:38
+          stressing that uh public goods in my view need to have some connection with nature with material reality so you know like not just coders that work uh separately uh but is it really kind of rooted in the material world are we regenerating Material World I think that's an important Criterium uh I like the example of region Network right where you have a planetary Ledger an ecological State an ecological state is a set of 36 metrics that reflect the state of nature and so you always know whether you degrading or regenerating
+
+          
+          09:19
+          the environment in which you operate I think that's a really interesting way to look at it yeah so what I'm this is really interesting what I'm hearing is there's this more of an Ecology of grass Roots based funding that's emerging both in in potentially crypto and blockchain but also just in the communities themselves so it's like to use a term that's been used before there's a a crowdfunding sort of aspect to this as well so we'll play on this a little bit more and I'm curious about what have the
+
+          
+          09:49
+          challenges around getting different communities funded look like so Michelle got into it a little bit but what go ahead what would you see well I actually did a study of uh 500 uh Urban Commons projects in the city of gent in 2016 and actually typically it will be two people that get a halftime wage from an NGO and are working 16 hours a day so they're totally under capitalized underfunded and so my dream is of course that while we are doing uh in web 3 and I say we although I'm kind of an outsider but anyway uh in the sense of
+
+          
+          10:27
+          you know we creating This Global coordination mechanism [Music] uh to trans locally coordinate labor and the funding of that labor right but I think we need to go down to productive capacity some of the funding that we use for ourselves I think should be directed to the people who do resilient resilient material production at a local level and that will make them a lot stronger so what I imagine uh and this is not happening yet but you know just let's use our imagination is uh let's say we have the local
+
+          
+          11:01
+          level and they create a cosmic Unity right uh they have a Global Knowledge and protocol Commons that can basically help every node in that Network and then maybe there's a translocal network of ownership that owns a bit of the local and the local owns a little of the global and so you have this entanglement between the local and the transnational level and I think this is what we're trying to do in a way that what's new in history is that we are we now have a technology for Trans local self organization which I don't think we
+
+          
+          11:38
+          had before and this is basically you know changing the very nature of civilization because civilization is a geographic system that linked the urban to the rural and now we're creating this holy new layer on top of it and that's the really challenge is how is that going to work together and what the role of the nation state sitting kind of in the middle of of those two levels is it going to continue to exist uh is it going to destroy one or the other you know there's many issues around that so I'm going to let this is interesting I
+
+          
+          12:09
+          want to play on this and I know that uh David has some thoughts but I'm trying to understand where the in the in your in your trans local Vision in this Grassroots Vision where is the actual value being accured where is the the funds actually coming from I don't know I I'm not completely clear on that but I think that as well we'll have some thoughts on where it can come from from a blockchain perspective but I'm curious where you're well you know I I think the the value can only come locally I mean
+
+          
+          12:38
+          you need a surplus of the rural to invest in the urban you need an a surplus Urban workers to produce in the cognitive layer so it you know it's it's really labor and nature that creates wealth and then we have created this monetary system uh that unfortunately doesn't really reflect uh in a very good way what's happening uh on the ground uh so there's all a fictive and speculative value that is not grounded in anything real and especially now with this kind of like high procreation of Fiat money um and so I think the the good
+
+          
+          13:12
+          news about crypto is that we now have the capacity to create thermodynamically informed currencies right as allo chain says currencies seeing currents which the current money doesn't see it you know we suppose that we see it we can actually not see what we do to Nature and the essential problem of the capitalist economy is externalization right is that in order to be cheap and competitive you basically push as much as you can on the side and you don't see the impact and in order to create a new
+
+          
+          13:47
+          balance between nature and Humanity we need to reintegrate that vision of externalities and basically they have to become internalities and I think the technology we're building is a technology that is able to do that contribut accounting allows us to see you know contributions that are not uh doing for the working for the market public goods funding is an example of contributory accounting we recognize that kind of work that the market doesn't fund we can have flow accounting you know 3D Accounting in an open
+
+          
+          14:21
+          ecosystem and we can have thermodynamic accounting which is actually seeing flows of matter and energy and all these technology exist today are experimented with it's just that they're not integrated yet and that's kind of the challenge yeah playing off of uh seeing currents I wanted to talk about um some experience experiments we're running with a partner organization in Africa right now um using blockchainbased public goods funding infrastructure uh to fund projects in Refugee communities and what we're finding is that when a
+
+          
+          14:58
+          community uh propos is uh what the needs are and proposes a budget for how to resolve those needs um they can do it a lot more cheaply than if a project is kind of prescribed from an international body and then uh you know contractors are uh charging 300 400 500% um and the funds are used much more inefficiently and um doubling down on seeing the currents uh we recently uh had the privilege of observing in Action a bitcoin-based uh multisig system that saw the donors uh the beneficiaries and recipients all the contractors uh
+
+          
+          15:42
+          vendors and uh stakeholders and community members colle collectively observing the multisig where the payments were going how the funds were being spent and this uh kind of transparent uh system for public goods fing funding infrastructure which which blockchain are particularly well enabled for um is a I think a really really interesting tool that we're just starting to see um how how much more efficient we can use uh funding at the Grassroots level absolutely and Kevin you have a lot of experience at gitcoin
+
+          
+          16:16
+          with thinking about the way that these funding mechanisms can actually work and what they look like so maybe I know you've talked a lot about quadratic funding and its implementation can you maybe speak to that with relation to what these guys are saying how is that relevant yeah sure um okay so quadratic funding is a way a mechanism for funding public goods and it's been the primary mechanism behind getcoin over the last four years we are going multi mechanism we're starting to do retroactive funding
+
+          
+          16:46
+          and guilds and conviction voting and a bunch of other mechanisms but uh we have done a lot of quadratic funding we've done uh $65 Million worth of quadratic funding over uh 5 million transactions to about 5,000 different grantees and basically we're putting this into practice and before I tell tell you what it is I just want to say that Glenn W and vitalic boin and Zoe hittig are the ones who invented this mechanism I did not invent this mechanism I'm just putting it into practice but basically
+
+          
+          17:18
+          the way it works is that you put together a matching pool and you let grants or just projects people who are doing stuff in the community apply to be a part of a matching round and then contributions to those grants are matched for during the round usually a two-e period contributions to those grants are matched by contributions from the matching pool but there's one weird trick that makes it work and that's that the grants matching the amount that they get is M based more on the number of contributions than they get more so than
+
+          
+          17:54
+          the amount that was funded and so if you raise $100 from 100 contributors and I raise $100 from one contributor you're going to get 99% of the matching pool because that's how the math Works in quadratic funding tldr the opinions of the rich and the few matter less than the poor and the many so we're democratizing the allocation decision from a central power broker who's up in their Ivory Tower figuring out how to fund public goods to something that actually creates a signal in the market of what does the body politic actually
+
+          
+          18:28
+          care about Within These ecosystems and so that's really the the cool idea is to democratize the funding decision and to create a market signal for what people actually care about but there's two Achilles heels with quadratic funding the first is the Cil and collusion problem basically if I'm going to deploy that $100 to my project why don't I just make up a 100 different identities and make it seem like my project is bro broadly popular so um uh and then another flavor of that problem is that could bribe all hundred of you to
+
+          
+          19:01
+          contribute to my project to get uh to drain the matching pool so those are solvable problems I can get into how getcoin has approached that through the 22 rounds that we've run and that's the Achilles heel number one of quadratic funding the second Achilles heel is how do you top up the matching pool um we have been really lucky at getcoin to get early support from the ethereum foundation from uh vitalic from nft projects and projects that contributed to the matching pool and we got a large donation of uh dog coins uh back in 2021
+
+          
+          19:36
+          that um we now have a $20 million matching pool and so if we do a million dollars per quarter we're funded for the next 20 quarters and so um very privilege to to to have made a lot of progress on those two Achilles heels of quadratic funding but you know for a project like logos or any other project that has a treasury largely of its own tokens one of the really natural things you can do is you can deploy your own currency to the matching pool and that's a great way to administer public goods in your ecosystem it's not the only way
+
+          
+          20:07
+          to administer public goods in your ecosystem but I think of it as one tool in the toolbox there's other tools out there as well but quadratic funding is just one of these constructions that can work really well and uh I think it's been proven out somewhat in the ethereum community I can't tell you how happy I am that you mentioned logos just now so well it gets me thinking this is really vital and critical for just what what we're doing at logos right we have a suite of technologies that are all
+
+          
+          20:38
+          public goods right or common goods to use Michelle's eloquent term so thinking about funding for parallel societies and parallel networks which is largely at least in the digital space common goods so what is what does that look like for you guys for parallel societies for funding parallel societies what's that look like and what's the future of it look like so I'm going to um te this one up for Michelle and see what you have to say about it uh well yes okay uh so I think what's new is this kind of Link
+
+          
+          21:13
+          direct link within the local and the trans logo um and I also think we are moving to a new value regime like every Big societal Revolution is a value is a value regime change right um like in feudal times we believe the value came from the land and then uh after the 16th century we believe that value came from labor in the market um and I think that what we are finding now is that that value is contributory right so if value is only a commodity that comes from scarcity then you have to push everything nons scares
+
+          
+          21:53
+          out of the way and this is what we did for four centuries and nature doesn't look in a very good State because of it so we need to reintegrate the notion of contribution and I think this is uh very important because um you know this is a weird uh kind of tunnel I'm making but I I'm reading this thesis about how the early Christian monastics revolutionized the notion of work because for the Romans and the Greeks work was for the slaves and they said no no at laa work and pray so work became something that
+
+          
+          22:29
+          was really valuable you know way of basically uh putting the Divine in the world and making the world a better place but in the 16th century we made labor into a commodity again so labor became empty and you have to find a job to survive and that's not necessarily a meaningful job right it's you you just need a money to survive and to eat but look at what we are doing we creating open ecosystems where we can see what everybody's doing and then we can freely associate our passionate skills to a common project so this is a this is a
+
+          
+          23:04
+          revolution in how we see labor right so here's then the thing is that I think that we do that locally and translocally at the same time and that means that a portion of our value can go to the trans local to strengthen the local and that's what I call the cosmo local right so everything heavy is local and everything light is global and shared and so let just said this thing so it's about regulation of society right so the Empire controls the market uh and the commons still exist in capitalism the commons are enclosed and
+
+          
+          23:41
+          the state regulates the market then the market escapes from the state because it's transnational and it's no longer regulated and that's why for 40 years people feel powerless because it doesn't matter who you vote for you can't change it at the national level and what it means is in my view we have to inflate the commment right because otherwise we have to inflate the state again that would mean a world government I don't think that's a good idea but if we inflate common institutions then we have
+
+          
+          24:10
+          a counterpower to Trans financial Capital right and look at what we do with capital we actually turn Capital into contribution right we talk about quadratic fending we we say yeah it's good to have Capital we use it to fund public goods so we turn it we turn Capital into Commons infrastructure and then we we have a voting mechanism which recognizes the the contribution of capital with we or at the same time we limit it right uh through this quadratic voting system so I I think we're doing a lot of good
+
+          
+          24:44
+          things in web 3 uh which in a way if you want to look historically you should have look at at Medieval cities you know run by the guilds in association with their own legisl legislative systems a very dis the system of power and I'm pretty sure this is where we're going um building on the cosmo local analogy um we just ran a month-long uh open source developer residency over in changai um and it was an interesting mix of the global and the local um bringing in kind of experimental public goods funding mechanisms um bringing in local
+
+          
+          25:25
+          developers and local and Regional Nos and Building Solutions together um here for the Southeast Asian context um and then some of which are applicable globally um and leveraging open source technology we're we're basically building in the open um and so that's an ongoing experiment we're getting into um and I wanted to go back to something you said about kind of value systems and how we measure value and um accounting systems and and what the regen network has been doing um and I just wanted to
+
+          
+          25:57
+          give you guys an analogy of how broken I think our accounting system is um so this is a example from an economist named Herman Dy ecological Economist um who also had a background in biology and um he gives the example of coal mining so when you blow up a mountain to extract coal um there's like basically a series of GDP plus signs there's no minus signs so the first one is the coal itself so that's um economic growth value created um you know coal miners are working hard um there's explosives that are going off more economic growth
+
+          
+          26:35
+          uh you know the production and deployment of those explosives um then there's the river that has to be cleaned up by the um kind of debris over the explosions um and so the the kind of state hires people to go clean up the river and that's also economic growth GDP job creation um and then there's the coal miners themselves who have this thing called black lung disease and it's pretty pretty pretty bad thing and they have to go to the hospital and uh then the doctors have more work so that's also economic growth and like there's no
+
+          
+          27:06
+          um accounting for for nature and and human health in this equation and that's kind of like what our models are today can I give an example uh I I'd like to use when I my lectures so it's the three nurses so the first nurse is a Catholic nurse she's she's not getting paid she's healing people but she's neutral for GDP then you have a public Hospital doing the same job paid by the government she's negative for GDP she's a cost and then you have a private nurse working in a private hospital and she's
+
+          
+          27:40
+          growing GDP positively so in a commodity regime you have these three nurses doing the same job and they judge entirely differently if you have a contributory regime they're all doing the same job they all recognize for the value they've for healing people whether they work in a private public or you know religious sector right so this is basically just to enhance your your analogy that the system that we have now doesn't work because we we completely ignore negative social and ecological externalities we
+
+          
+          28:13
+          just don't count them we don't we don't see them yeah this is a really beautiful conversation and something that's close to my heart because what you're getting at is ultimately like game theoretic scenarios where everything is a race to the bottom or an arms race or we we would call a malakan dynamic where people trying to optimize for their short-term benefits at the expense of collective well-being and that's an absolutely horrible scenario to be in so uh how can we continue to rectify these
+
+          
+          28:42
+          these problems with funding with sorry I think about Kevin a lot and his idea of quadratic funding but there's other funding mechanisms potentially we could apply to parallel societies that might be beneficial to get outside of these Dynamics as well yeah um uh yeah just one reaction quic funding is not my idea it's vitalic GLS I'm just yeah I just meant you're like your promotional idea part part of the movement yeah um you know I think that at some level a lot of these things can be stated as coordination failures
+
+          
+          29:17
+          uh a coordination failure is anytime you have a group of humans that want to create X outcome but they can't articulate that outcome or they can't find ways to coordinate their resources in order to acheve that outcome and one of the things I think that's really cool about blockchains is that they're kind of the stateful internet they're programmable and so you can build these little circuits that help people coordinate uh around their shared needs and and ideally solve uh coordination failures where uh basically each of the
+
+          
+          29:46
+          agents in the system can have more confidence that each of the other agents are going to converge on solving that issue and so that's getting into the realm of mechanism design how do we build systems that create credible commitments that we're going to solve shared problems together in the most generalized sense and one of the things that I've sort of stumbled upon since founding gitcoin is just that there's really uh dozens of really cool Capital allocation mechanisms coordination mechanisms out there that can be used to
+
+          
+          30:19
+          help fund our shared needs or or coordinate towards uh solving these problems and um you know they range they range from things that were developed uh eons ago during when we were hunter gatherers how do we coordinate our resource allocation to The Agrarian to the industrial information age and now I call this era the onchain era there's a certain amount of mechanisms that only could exist now that we have blockchains and uh I recently wrote a book called the onchain capital allocation handbook which sounds
+
+          
+          30:51
+          like a mouthful but just just Capital allocation it's just spending resources and and uh doing it on chain so I wrote a book called Beyond chain Capital allocation handbook and uh went through uh a couple dozen of these different mechanisms and I'm just trying to spread awareness of of of what's available out there in order to solve these problems and I'd say that there's sort of like a primordial soup of mechanism designers and experimentation and people deploying Capital uh and trying to figure out
+
+          
+          31:20
+          which of these mechanisms are going to scale and become the backbone of capital Flows In These parallel Societies in the future but it's it's the first inning it's the first quarter in terms of actually bearing these out in in in progress and so I'm really curious to see what happens over the next couple years in exploring this design space and I think that you know I have uh a ton of access as the founder of getcoin to a lot of these big brains and my job in writing the book is just democratizing
+
+          
+          31:49
+          that access so you can get a copy of the book at Alo book. gitcoin doco um a book. gitcoin doco and uh if you're not someone who reads all that much there's a GPT that's read the book that you can chat with about these ideas and that's kind of a fun way of exploring the design space as well nice so let's throw a little bit of a wrench in the gears I think in thinking about this if we were talking to a state-based bureaucrat or a politician they may say well we have solutions for a lot of these problems
+
+          
+          32:23
+          that you guys are going to face and we call it ESG and environmental sustainable governance models that the corporate and the Legacy system architectures have started to embrace and is a really popular so why why will that not work or why is that not working and how is what we're going to do better um I'll take this first so uh I believe that in the kind of process of industrialization we we now have these complex societies where uh the decision makers and capital allocators are so disconnected from the grass roots that
+
+          
+          32:59
+          we don't really or or let's say these decision makers don't have a direct uh feedback loop and they they don't maybe they're well-intentioned um but it's difficult for them to have visibility on the ground and maybe these kind of Grassroots Community networks uh aren't Incorporated and aren't the the feedback isn't coming back into the system and so the my counter would be um how can we enable these kind of democratic and experimental allocation systems and uh encourage these like larger funding
+
+          
+          33:30
+          bodies to start running Pilots that enable and Empower uh the Grassroots and the people that are actually connected to the ground connected to community needs um connected to the Earth connected to Nature feeling the direct results of the tragedy of the commons and and letting them do that allocation work yeah this reminds me of Michelle yeah he's already laugh okay we had a little bit of a discussion before this panel and he said in in the scenario you envision it there there is no tragedy of the commons there can't be in this in
+
+          
+          34:02
+          this case right so uh you know the this famous actually the most read scientific article in the history of the world right uh G hardin's tragedy of the commons I belong to those people who say it doesn't exist but let me explain why because he's not talking about the comment he's talking about Open Access resources that have no rules and the commons are defined through self-regulation so that's where it gots it completely wrong so in the lat in Latin you have R nus what belongs to no one and R communes what belongs to a community the
+
+          
+          34:38
+          commons belong to a community that self-organizes the protection of its resources and you know you go uh you look at satellite image of the world and ask yourself where is it green as very easy Austria Switzerland Japan because their Mountain flanks are commons and these communities have Protected Their own you know natural environment for Generations right so the tragedy of the commons is non-g governed nonprotected resources that are for everyone and then obviously selfishness will play its role
+
+          
+          35:11
+          and will deplete it so we should call the tragedy of the commons the tragedy of the non-common or even maybe the tragedy of the market because actually what's happening is that people are then selfishly using these uh common resources and selling them on the market so it's it's a very misleading uh theory in my view yeah and something I'm thinking about that with these these funding mechanisms I I think a lot about how they can actually alter and change our communities as we move forward parallel societies Network
+
+          
+          35:47
+          States whatever the community is somehow it seems like the funding mechanisms themselves have the ability to alter the Dynamics that allow those communities to thrive and so is that how you guys also Envision that you see the the Dynamics of funding itself changing communities on a fundamental level yeah I mean I I think that the word that comes to mind here as we're describing this is the word institution which is something that's that's sort of like something that's rigid and hard and can be depended upon for achieving a
+
+          
+          36:19
+          certain set of uh outcomes in the Industrial Age our institutions are these uh at least in the west there are these sort of like giant marble buildings that uh you walk into and they're sort of majestic and uh things like courts things like Banks things like the local government and there where decisions are made that are existential in in creating culture and you know exits which are the things that are outside of the institutions things that are soft things like culture things like the relationship things like the
+
+          
+          36:52
+          Arts uh a lot of the things we hold near and dear uh I would describe as exti tutions so inst institions hard rigid can be depended upon and exti tutions are the human culture and the society that have been built around them and they're just an inversion of each other and now that we're going on chain we can create digital hardness and programmable money and programmable institutions and so we're building these Capital allocation networks that uh since we can program our values into our money really
+
+          
+          37:20
+          the design space is more or less infinite and we can decide what those things look like but you know the world I want to live in is having solid infrastructure rure and funding the Arts and funding The Commons in addition to all the great for-profit things that are out there as well and um you know so I think there's an opportunity to uh support people who are creating exti tutions that are regenerative in culture and arts and um and and all the other things that we hold dear in our in our families and in our communities and the
+
+          
+          37:49
+          institutions in the Industrial Age were these uh physical meat space things and now the institutions can be onchain institutions and the institution inform the exti tutions and and vice versa so there's sort of an EB and flow there and it's really beautiful design space I mean we can program our values into our money it's really profound and I hope that we explore the design space and and um and and create something really meaningful yeah go ahead David yeah I wanted to add um how kind of I've seen
+
+          
+          38:20
+          funding flows shape uh communities and projects so it's really common in the nonprofit world for an organization to receive a gr um use that Grant to do a project and then uh maybe even scale up because they've been told that they're going to get followon funding if they succeed in XYZ and then it doesn't come through and then they've basically uh scaled up increased their burn rate and um they have to lay people off or cancel the project and then they have less Trust of of funders in the future and uh this is
+
+          
+          38:51
+          kind of like something that I've seen shape uh the the nonprofit space um and and to cite an example I see some octant folks in the audience um experimenting with combining uh kind of traditional endowment models with quadratic funding and Democratic Community participation um to enable kind of like continuous funding flows using a kind of uh non depletive treasury um and I wonder like uh it' be fun to sync about like like if logos is thinking about these things and um you guys have spoken with octen I'm
+
+          
+          39:27
+          sure yeah um I don't know if well what it you're what I'm thinking about now is actually I'm going to venture off the reservation a little bit in the sense that if somebody here in the audience they're building a some public good infrastructure like we're doing at logos like you guys touched on it but maybe they're really confused how do they actually plug into these these funding ecosystems like how do can they get funding quick efficiently in a way that is sustainable and meets their community's needs in the way that we're
+
+          
+          39:57
+          talking about so how can they get involved and get funded like ASAP yeah I mean like gitcoin is generally the the first place I send people to yeah that's going be my answer too use getcoin I no I I'm I'm ship hosting there's a bunch of really great uh experiments uh I'm I'm familiar more with the ethereum ecosystem but optimism retr funding getcoin octant there's some stuff in arbitrum that's it's really mature and so there's a there's a plurality of different options out there and um you know I know that's annoying
+
+          
+          40:35
+          that there's not just one of them but uh actually the plurality is a feature because it creates antifragility in it creates a diversity in different funding mechanisms and implementations and that's actually really important because if one of them goes away then you still have all of the others so uh the answer is that there's many places that you can go in the ethereum ecosystem um and I'm sure that as logos and other blockchains grow they'll also have a plurality of funding mechanisms as well nice okay I think we have a little
+
+          
+          41:07
+          over eight minutes left and I think maybe right now is a good time to take a couple of questions but give it a round of applause for these guys this is an amazing amazing [Applause] discussion this is like the super heady Giga Brain Trust hardcore guys that thank you so much so if you guys I guess we can line up now for questions right how does that work somebody yeah there's a mic in the middle there mic in the middle step up to that yeah um I think the most effective way to fund Rising is like launch MIM coin
+
+          
+          41:45
+          but but MIM coin just for the Traders so if we can like launch a token for Builders like uh your contribution and your uh maybe your skills contributed to this smart contract and then you can get that coin maybe would be great way I'm not sure because in past I worked for a doll for a long time and actually I host lots of like um online event online uh Workshop there are lots of people they can use them spare time to coordinate with each other and can make some very useful thing but the the most
+
+          
+          42:24
+          challenging for them is like fing uh is uh related with uh funding a location I mean before before funding coming they can uh coordinate with each other very very good but after funding coming I mean if they have the fee um the coordination the coordination way will be the very very hard so is there any like very easy way to like cooperation with each other so like launch token for Builders Builder um building as exchange for token how about this idea so you're just to make sure we're clear on the question so it's about how
+
+          
+          43:10
+          do we how do we cooperate if you're like a community or group and you want to cooperate to get funding how would you go about it is that is that what you're getting at because I only got yeah parts of your question sorry yeah yeah yeah is my question is that um I mean for tra us how to like uh coordination with them launch a MIM coin if you believe you just B it so like for Builders if you want to uh cooperation with each other more efficient if you believe you just build it and then you can get some like uh token back and then
+
+          
+          43:48
+          in future that would be more like uh utility I'm not sure I mean just like longterm token for Builders as easy as launch M coin ah mcoin yeah um I could share a few existing examples that I've seen that kind of touch parts of it so one is the uh Talent protocol um which enables onchain kind of skill recognition attestation of Builders um which in the future could enable let's say uh airdrops and retro payouts to builders that have contributed um another one is the protocol Guild which is an ethereum uh
+
+          
+          44:32
+          kind of developer uh Guild that uh receives not just eth at this point but a number of other tokens from uh layer 2 ecosystems that are dependent on the ethereum layer one um for their continuous functionality so that's like a way that um various ecosystems are rewarding uh public goods Builders um had another one but it's kept my mind can I give the example of a Grassroots economics maybe because I think that's such an exemplary uh project so so okay I may have some things wrong but uh bear with me so
+
+          
+          45:09
+          basically in Kenya like in many other worlds in many other countries in the global South we have these rotational Savings and Loans associat basically usually groups of women who put some money every month or every week and then there every week or every month somebody member gets the whole pot right and so that allows you to buy a mobile phone a fridge something that poor people normally cannot access um so they asked 1,000 of these 4,000 groups to give uh some money for common fund as collateral
+
+          
+          45:43
+          and build a Mutual Credit on top of it although Will Ric says it's not Mutual Credit so I'm not sure how to call it but it looks like mutal credit and so basically you you know you introduce like U uh multiplier effect so you have 20% money and you have 80% of this credit currency right so suddenly you have times for what you had he put a blockchain on it to make it transparent and they discovered they have like a six-fold accelerator so now people can fund you know this project and they know that their investment will go six times
+
+          
+          46:23
+          uh bigger uh then he introduced something called Ostrom contracts so instead of individual smart contracts they are collective contracts commitment pooling and uh now he's doing this cyber physicalization of ancient sharing practices so it's basically talking with Elders how they used to do you know commoning and gifting in their communities and try to scale it uh to the systems I think that's fantastic because that's really rooted in real people doing real things and using the blockchain to kind of augment and scale
+
+          
+          46:57
+          up what they're already doing uh so that I think that's a perfect example of you know improving coordination and using the blockchain in a very very smart way you know to just put more grease uh in in what in these Dynamics thank you one more question and very quick question and answer and then we're we're out so Kevin all this incredible hard work you've been doing yet the majority of your pool was funded by a dogcoin how does that make you feel incredible um uh so there's a $20 million matching
+
+          
+          47:41
+          pool uh for gitcoin and um I don't have the numbers off the top of my head but it's been multiple million dollars of generous donations from defy projects and nft projects in the 2019 and 2020 cycle uh and then we also had an nft launch in 2020 that was uh called the moonshot Bots and that raised $3 million and then the dog coins were like $4 million and then it's appreciated from there so it's actually only like a fourth dog coins but uh we live in a world where you can fund public goods with dog coins well
+
+          
+          48:15
+          that's kind of what I'm getting at is you know in a sideways way like what is the role of these kind of mimetic tokens and this value creation out of thin air going into public goods where do you see the funneling of that into more public good retener sorry guys 20 seconds yeah uh I mean dog whff hat has a 100x more valuation than getcoin so clearly you're asking the wrong guy but it seems like there's something there and I know the latest meta is AI meme coins so uh you know maybe someone who's involved in
+
+          
+          48:47
+          that scene can can say what it is but uh the other thing that I'll mention is the regen token which seems to be doing good stuff with with meme coins or they call them culture coins so there's a design space thing doing it ethically and doing it well is not something I know about though cool thank you so much guys get a give them a round of applause this was an amazing panel thanks Sterling oh no problem [Music]
+
+          

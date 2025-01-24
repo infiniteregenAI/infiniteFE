@@ -1,0 +1,141 @@
+
+          00:06
+          uh getcoin obviously an early leader in capital allocation our quadratic funding program has delivered about $60 Million worth of funding to open source software developers in the web 3 ecosystem over the last couple years and I see a really vast and really important design space in onchain capital allocation that I want to talk about in this talk and then I want to get into the solution space and how gitcoin is preparing to accelerate and uh elucidate the design space so basically I think that Capital
+
+          
+          00:38
+          allocation is important and something that we just take for granted when we go about our day basic Capital allocation anything from repaying friends for a meal or paying a bill uh you make hundreds of small decisions every month about where you want to spend your money but at scale Capital allocation can become a full-time job it can become mirrored in rivalis decisionmaking and bureaucracy and I think that onchain Primitives have a really big opportunity in changing how we do dow ecosystem development scientific research
+
+          
+          01:13
+          environmental and social impact philanthropic initiatives city state and Country development projects and capital formation and economic growth the total available Market here is in the trillions with a te not in the billions and I think that what's really cool about this is that these are only the categories that we are aware of so if you think about when the internet was first taking off we could not have imagined Twitter or Tik talk uh from the 9s and as web 3 begins to eat the world we cannot predict the next funding
+
+          
+          01:44
+          infrastructure or how it's going to shatter our existing expectations or ways that we eluci the design space currently for what is capital allocation and so I think that this is going to be really weird and really powerful as we go on chain because Legacy Capital allocation is holding us back it's mirrored by gatekeeping centralized power Brokers that are in charge of decision-making and through the sheer Act of just giving out capital in their communities are become Gatekeepers and power Brokers Legacy Capital allocation is not
+
+          
+          02:17
+          precise and not scalable and I think that because we now have programmable Global transparent and open- Source money we're going to be able to create onchain Capital allocation that's more accessible Democratic evolution Ary Incorruptible transparent and precise and scalable than was ever possible before okay so blockchains are rewriting how we send money to each other we're going to be able to leverage the properties of blockchains in order to do better more precise and weirder Capital allocation than has ever been possible
+
+          
+          02:50
+          before I think that another way to look at this design space is by looking at the stack that we're building in the web 3 space um I myself am an an ethereum user and a uh I would consider myself to be an evm Whisperer and I also am a person who runs a staking node there actually a saking node or at least one node behind me right now as I'm giving my talk and on top of the etherium network we now have Smart contracts in which we can program our values into our money and I think that what's really
+
+          
+          03:22
+          cool is that over the last 6 to 10 years of ethereum being live we've now been able to tokenize assets across the world world and put them into the erc20 format which I think is really really a powerful thing for the coming wave of capital allocation there's going to be people who are allocating these evm based treasuries to their communities and on top of that I think that there's a capacity to change how we do human coordination from first principles leveraging the properties of blockchains and what this all leans towards is
+
+          
+          03:56
+          better and more effective Capital allocation and human coordination and Collective action that has ever been uh possible before okay so I I wrote a book about this design space it's called the onchain capital allocation handbook I want to elucidate and help people discover the emerging Frontier of onchain capital allocation and coordination you can get the book if you want to skip to the punchline at alob book. gitcoin doco and one of the other things that we've associated with the book is a telegram group where you can
+
+          
+          04:30
+          and explore the design space in real time with other people who are are learning about it with you so we've got about 120 people in this telegram group and uh they're sharing learnings and doing book clubs with each other which has been quite fun okay so that's the opportunity space uh if you want to uh if you want to cut to the end you can check out the aloe book uh and then I want to talk about the design space and then we'll finally get into solutioning and that'll that'll be my talk so uh basically my view of the solution space
+
+          
+          04:59
+          is informed by gcoins Evolution as I mentioned at the top I'm one of the co-founders of gitcoin gitcoin is primarily known as a crowdfunding platform that leverages quadratic funding in order to help communities fund what matters to them we're available to help you distribute grants programs into your ecosystem and have recently made the jump from going going from just being quadratic funding to also be being making available retroactive public goods funding which we think is totally complimentary to
+
+          
+          05:31
+          quadratic funding we've built something called aloe protocol which compacts the seven years of learnings that we have from run and gitcoin into a protocol that anyone can use in their ecosystems developers can fork and put into their app and soon we are going to a multi mechanism Future Okay so the long Arc of gitcoin is exploring the capital allocation Space by going from quadratic funding to quadratic funding and retr funding and then eventually we're really excited to be going multi mechanism and
+
+          
+          05:59
+          I think that the future looks like a capital allocation Swiss army knife in which we make it really easy to do weird precise Capital allocation for all of the world's tokenized assets so a little bit of history for those of you all who aren't familiar with gitcoin over the past 20 20 quarterly rounds we've supported the funding of public goods enabling communities to fund their shared needs done about 4 million unique donations to 4,000 unique projects and have done 60 million dollar worth of funding to public goods in the ethereum
+
+          
+          06:26
+          ecosystem which I'm very proud of uh we are now bringing that capacity to the top Dows and evm based ecosystems in the project in in the evm based ecosystem we believe that getcoin grants uh grants equals growth and so we're a growth tool for these ecosystems that are helping them uh allocate Capital to whatever matters to them in uh their ecosystems so uh that's a little bit about what we're doing in in practice and as I mentioned a couple slides ago we're mostly known for quadratic funding which
+
+          
+          06:59
+          was invented by Glenn wild vitalic buan and Zoe hitzig about seven years ago and it's really good at Democratic Capital allocation it's really good at getting small donors and large donors to fund things together if you're not familiar with quadratic funding basically the idea is that uh you set out a matching pool and then you allocate that matching pool according to the results of a crowdfunding campaign but you actually wait contributions more when they come from a bunch of small donors instead of
+
+          
+          07:27
+          a a few small whales and so the really powerful thing about that is that we're able to fund what matters to Everyday People in these communities to the poor and many in these communities but you know there's an Achilles heel of quadratic funding in that it depends on strong identity systems which we don't really have yet and uh especially I feel strongly that we have to have privacy preserving identity systems we want to be able to show that people are unique humans but not individually uh docks who
+
+          
+          07:55
+          those humans are and so I think it's really important to have civil inclusion resistance in quadratic funding which is adds a fair amount of complexity buy me a beer sometime and I'll tell you about all the complexity that civil resistance and collusion resistance has introduced to getcoin so um we've been taking an iterative approach to building a quadratic funding platform over the last six years or so basically we're going through this Loop in which we run around and we get learnings from what what
+
+          
+          08:21
+          works and what doesn't we work with the biggest brains in the space in order to digest those learnings and put them into design criteria for what a next round can look like and then we iterate from there so you can kind of think of what gitcoin has been doing over the last six years as elucidating and exploring a search space and looking for a better design for how you create value with quadratic funding okay so this is a search space in which we're just trying to find the the global Maxima sometimes
+
+          
+          08:50
+          we get stuck in a local Maxima trying to find a global Maxima of how we create value for these evm based communities that want to fund what matters using gitcoin grants and I think think that the big aha moment for me over the last couple years was holy smokes there's not just one Maxima for how to run a grants campaign or a funding campaign this search space is actually multim Maxima so basically there's going to be multiple Capital allocation mechanisms that are good at different things and we
+
+          
+          09:19
+          should embrace that plurality of capital allocation mechanisms direct grants are really good at simple grants giving sometimes you don't need the the power or the complexity that comes with quadratics funding I think optimism I don't know if there's anyone from optimism in the crowd right now but they've just done a really good job of capitalizing on the a prior Insight that retroactive public goods funding is good at retroactively rewarding contributors it's easier to tell in hindsight what has been good as opposed to what will be
+
+          
+          09:48
+          good in the future and so this this was a really eye-opening moment for me as someone who's working on Capital allocation oh there's not going to be one Global Maxima for the best Capital allocation tool that you can build there's going to be multiple and I want to just kind of talk about that design space for the rest of the talk and uh and and hopefully that will elucidate the the applications that are going to be available in a capital allocation operating system in the future so retroactive public goods funding is
+
+          
+          10:17
+          really good at making decisions with hindsight about what goods in your community are actually providing value to the community around you so optimism has created this design space of retroactive public public goods funding has delivered about $100 million worth of funding in their most recent round to contributors in the web3 ecosystem that are working on public goods and specifically optimism based uh public goods another Capital allocation tool that I think is really cool is called conviction voting basically it's really
+
+          
+          10:49
+          good at Bottoms Up decision making if you don't want to hold a whole D vote for every decision that your Dow has to make you can use conviction voting which is basically a way of setting out causes that you want your Dow to work on and then you can stake the governance token of your Dow on those different initiatives and conviction builds over time there's sort of this biomedic uh analog to conviction voting where neurons charge up over time and then they fire and that's kind of what conviction voting is if you want to run
+
+          
+          11:20
+          a party at web 3 Summit and you don't want to have to have a whole Dow vote over the $100 slush fund that you want to do then you can run a conviction voting round and little initiatives can pop up here and there where people can allocate Capital to the things that matter to them the most based off of the amount of governance tokens that they're willing to lock up over time so I think it's a really interesting way of allocating capital in evm based ecosystems shout out to onehive uh who's working on conviction voting if you're
+
+          
+          11:46
+          out there uh let's go through a couple more of these and and then I'll start winding down from there the next mechanism that I wanted to talk about is called self-curated Registries if anyone in the audience knows about protocol Guild Trent Vans uh zerox gorilla and TBO shout out to y'all for inventing self-curated Registries basically protocol Guild is a self-curated registry in which the members of protocol Guild curate who else is a protocol developer in the ethereum ecosystem so it's got a a domain that's
+
+          
+          12:17
+          important software development protocol development in the ethereum ecosystem and it does Bottoms Up curation of that domain in order to make a list of who is a contributor to the ethereum prot community and then from there once they have one address where you can fund the entire protocol development Community then they're able to go out to Vanek and uh to Lio and to other people who actually have treasuries that could allocate to ethereum core protocol development and I think that it's really kind of very cool to see the rise of
+
+          
+          12:49
+          protocol Guild $60 Million worth of funding over the last couple years to ethereum core development and uh I'm I'm just really excited that they've uh blown open this design space of self-cured Registries and also just very simple way of funding public goods half hats off to the protocol Guild team um let's see uh I I think that I've only got about four minutes left so maybe start winding down my talk by just saying I'm really excited about the endless possibilities that I see for New Capital allocation strategies to be
+
+          
+          13:20
+          built on chain uh I think that there's trillions of dollars of capital available that is going to be tokenized over the next couple years and so because of that I believe that as tokenization eats the world the Tam for onchain Capital allocation is going to become really massive right now we have direct Grant we have quadratic funding we have retroactive public goods funding we have deviants of uh these got streaming quadratic funding private quadratic funding in the future I think that we're going to see lots of strange
+
+          
+          13:49
+          but also really powerful ways that we're going to be allocating capital in the future and uh I am really excited to be exploring this design space and getting back into protocol development with my work that I'm doing uh with the aloe protocol team so aloe is uh short for allocation and we are building a protocol that allows communities to Fork getcoin grants or Fork optimism retr funding and recombine it into their own applications and into their own ecosystems so basically if you think about the three phases of of capital
+
+          
+          14:25
+          allocation for any community that you're in maybe imagine a community that you're in and think about how they've gone from accumulating Capital that can be through an Ico or an nft sale or through a wealthy donor through crowdfunding and then they have to figure out how they're going to actualize their mission in the world and that's a the act of allocating Capital so basically figuring out what projects and resources you want to spend that capital on and then there's a loop of Distributing capital from there and
+
+          
+          14:55
+          so basically uh you can think about aloe protocol as designed around these three phases of capital allocation the first being uh accumulating Capital we've got a uh modular software architecture that basically allows you to take erc20 tokens and then uh any registry of causes and import it into aloe which is the main part of the aloe protocol a uh tool for deploying a strategy for allocating Capital so a strategy can be quadratic funding direct grants retro active funding conviction voting Grant
+
+          
+          15:31
+          ships anything that you can basically program into an ear uh an evm based smart contract you can make into uh an Alo allocation strategy and then uh Distributing Capital so there's lots of really very amazing ways of Distributing Capital these days uh we can do a basic Merkel distributor we can do uh drips Network super fluid hedgy there's just a bunch of really very cool tools out there for Distributing capital onchain and then uh routing them from Bridges to Bridges is another option for what we're
+
+          
+          16:04
+          seeing people in the doing in the distribution of uh distribution stage of these so um I see this design space in which we're going to be exploring what's possible in the future of capital allocation and boy what if we could just uh go through all the different permutations of all the different modules for different types of Registries of causes and strategies for opinion United ways to distribute capital in our communities we're going to explore the entire design space of what's possible in onchain capital
+
+          
+          16:37
+          allocation by just forking out different modules and uh and and exploring what's what's possible here so uh in closing uh thank you for listening to my talk really sorry that I couldn't be there in person hope to make it there in person next year if you have any interest in checking out more about onchain Capital allocation you can read my book uh Alo book .g coin. is the is the address and we are going to discover the emerging Frontier of onchain coordination together uh if you are uh in a web 3
+
+          
+          17:11
+          ecosystem and you're interested in going Beyond just regular grants for your ecosystem gitcoin does offer quadratic funding and retroactive funding for your community so uh if you want to do just simple Capital allocation with direct grants if you want to do Democratic Capital allocation with quadratic funds or if you want to do retroactive funding with uh uh uh your community then getcoins got tools and we've got a bunch of knowledge that will help you get up and running and uh if you're a developer
+
+          
+          17:42
+          then please reach out to me we' love to get you building on the Alo protocol that is my talk for the web 3 Summit thank you so much for having me sorry I couldn't be there in person and hope to be able to make it there in uh person next year but I'll be at Devcon so maybe I'll see a bunch of you all then thanks so much for having me [Applause]
+
+          

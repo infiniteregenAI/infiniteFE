@@ -1,0 +1,129 @@
+
+          00:00
+          [Music] unbelievable at 6:00 there's still this amount of energy in the room I'm so excited to be introducing our next two speakers FES and Kevin auke two people who have done incredible work in innovating in the grant allocation ecosystem and the onchain capital allocation ecosystem um this is going to be you know our our our close outs so I'm really excited to bring these two folks to a quick conversation about Capital allocation let's give them a round of [Music] applause hi testing testing um hi I'm
+
+          
+          00:45
+          themes I was the developmental editor for this onchain Capital allocation book but mostly I work in Grants and governance as an operator and a researcher um and this of course is Kevin aukee who can introduce himself hey I'm Kevin I started at getcoin cool um so I also want to give uh credit to it was a team that actually built this book this time um so I want to just read a few names of the contributors that have participated um so there's Matilda who was the publication editor Riley the copy editor the writers
+
+          
+          01:26
+          including Sarah Matt and Trinity it's myself and and researchers including SEL Izzy Ornella and Matt and design by ana um I withhold last names because I didn't really have the permission to read it so um so I'd actually like to like start with the why um so what inspired you to start collecting um information on resource allocations and why is it important now to have this type of resource yeah well so uh we wrote this book the onchain capital allocation handbook explorers Edition uh in order to illuminate what we see as a really
+
+          
+          02:12
+          exciting design space uh Capital allocation is anytime you decide to spend money or resources in order to reach a goal that could be financial goals like profit or it could mean impact goals or funding of public goods and I see an opportunity to completely rewrite the category of how human money as blockchain becomes our financial infrastructure and so sketching out some of the opportunity space is what we were trying to do with this book um and I also you know I noticed that you asked the question about resource allocation
+
+          
+          02:43
+          and we've had a debate within the group of writers about do we call this a capital allocation book or resource allocation book uh because arguably some of the most important resources that we allocate in intellectual Capital attention by the way thank you for allocating your attention uh to me right now except for the people on their phone in the back uh I C my [Laughter] mic all right uh yeah so I I just think that as we move to uh onchain infrastructure there's going to be a lot of opportunities to more precisely
+
+          
+          03:24
+          allocate Capital at scale and do it in a more democratic way and we want to sort of help the people who are building that Revolution uh with this research so that was the idea behind the book and then in terms of the just like the titling of of the conversations that we had around it so um unlike the the first book so this book will actually be categorized in different categories outside of capital allocation um so that would include governance mechanisms Cooperative models and applied use cases
+
+          
+          03:54
+          the reason why we had these conversations about um kind of classifying them more effectively is that I think sometimes words not sometimes words matter and so if we're introducing New Concepts or definitions um it allows people to actually have like a better context within that so um what you'll find is that not everything will be on chain Capital allocation but in in some way connected so I actually wanted to talk to you Kevin about how do you see this resource and the contents within it um in practice like how can it
+
+          
+          04:29
+          be used in practice this is actually the question yeah well um I think that a lot of us in this room are participants in Dows and in onchain ecosystems and so a lot of the things that we've listed in the book from autop pgf to build Guild streams to uh Lotto pgf to social impact bonds to rank Choice voting to Cooperative models to base paint are things that we're going to use over the next couple years as onchain products get more more and more useful and so I'm really excited about a world in which
+
+          
+          05:04
+          you don't have to think really intellectually about these things in order to participate in them uh and uh you know some of the people who have built these mechanisms are are in the room right now I think Nico from Lotto pgf is somewhere around up Nico uh snaps for lotto pgf uh Josh and the bread bread chain team what's up how you doing and uh yeah so um the innovators are in this room and I think that there's an opportunity for us as the onchain economy grows to actually use these things and boy wouldn't it be a
+
+          
+          05:37
+          beautiful world if in 10 years we could disrupt the uh inefficient power Brokers that are allocating capital in the real world in meat space and use onchain mechanisms that's that's the dream yeah I mean like talking about Innovations there's also traditional ones that kind of remind me of models that exist within a dow so rotating saving and credit associations very similar to a Dao um the basic concept is that you have a Treasurer that you trust and every month you would give them a certain amount and then
+
+          
+          06:08
+          based on the pool if it's your month then you would get that and so it relies on like a trust system for that and then like participat budgeting is also something that we apply but we don't reference it as well so I think it's really important to have the traditional models um featured here but ones that are also relevant to the cont text of of web 3 and building because sometimes I feel that we are trying to reinvent the wheel a lot so if we can't look at where we came from we don't really know where
+
+          
+          06:39
+          we're going so I thought one of the things I think is really cool that's come up in this research is how much the way we've resourced we do resource allocation has evolved over time as Humanity has gone from small tribes of hunter gatherers to agrarian societies and then in the Industrial Age and in the information era we started to rely on these large National governments and social welfare systems uh of the nation state and um one of the things that I'm sort of interested in is how much are we
+
+          
+          07:09
+          going to see a Revival of indigenous and local peer-to-peer resource allocation systems that used to exist before we relied on on government governments and in what ways could we bring those on chain and start to experiment with uh things like commitment pooling or uh Workforce rotation and uh it's just kind of like a really exciting design space to just cartography it and to compare and contrast these different trust assumptions and collective bargaining agreements that that have existed through time and I I I really uh I I'm
+
+          
+          07:45
+          I'm really excited to play with them and to around and find out uh with these new mechanisms are there any mechanisms that you think could be used as a tool stack well I mean obviously in the book I mean uh you knew I was going to shill get coin grants and then you just you blocked me um I think one of the coolest mechanisms in the book uh is base paint uh so this is a pixel artist rev share mechanism and basically uh base paint is kind of a uh it's it's a canvas that once per day they mint a pixel art canvas and it's a
+
+          
+          08:23
+          multiplayer real time painting of a piece of art and then after 4 hours the art locks and then a group of curators can clean up the art and once once it mints the uh basically uh people can mint that that piece as an nft and everyone who put a pixel on that canvas gets a share of the revenue so it's like a collaborative real time co-creation of an of an art uh art piece and we actually did a base paint about the onchain capital allocation book which has base paint in the book so this just like a fun little
+
+          
+          09:00
+          little Loop there and artists made a I think it was like five or six eth from from the campaign so new ways of funding art I I think is the general category that I'm excited about but Bas paint is just a really cool mechanism shout out to the to the founders uh Zach Herring and uh I forget the other guy's name but shout out to the founders of Bas paint um so speaking of well not so but you mentioned getcoin uh grants um so there's lot been a lot of conversation about sustainability and less Reliance
+
+          
+          09:29
+          on on grants um where do you think that like where is the way forward outside of just a funding mechanism relying on grants like what do you see us using um or maybe things that we should use or think about in order to create much more sustainability in our funding mechanisms yeah um I think that I can't wait to see what's next and I I think it's hard to know with certainty what's going to be over the horizon um it's kind of like asking the question in the in like in the 1990s in 1990s if you would ask someone
+
+          
+          10:04
+          like what's next over after mail like physical mail no one would have predicted email and then like Twitter and then like Tik Tok it would have like blown your brain in the 90s to to think about those things but like in in retrospect it's completely obvious that that was going to be the lineage of of how we changed how we process information and so um I think there's definitely something over the frontier past grants that's going to be uh more scalable and more more precise ways of allocating capital and uh and so we'll
+
+          
+          10:34
+          see what those are in in 10 years maybe we'll look back and it'll look obvious just like it look the internet looks obvious to us today um but uh I'm excited about uh direct to contract incentives I'm excited about futarchy I'm excited about impact metrics based retro funding we don't have time to go into what each of these are you got to read the book uh in order to know what those things are but there's there's just some really cool experiments that are going on in the space and that's one of the joys of of of uh writing this
+
+          
+          11:04
+          book is cartography and all the different things that are available and uh hopefully we can cross-pollinate once we are aware of what everyone else is doing cool so I actually wanted to open it up for any questions since uh we have about eight minutes left does anybody have any questions that they'd like to ask questions do we have a mic for Q&A okay um a quick question about um attended your Workshop shop earlier about your vision on um for nonprofit raising money for um nonprofit and non-government organizations um how do
+
+          
+          11:43
+          you Invision that maybe it's um do you see that happen like 5 years down the road or maybe shorter or longer time frame yeah great question um so I mean I I think that my sort of vision in a very reductionist way is to uh fund ethereum public goods and then fund public goods for all evm based communities that have treasuries and really perfect a set of six to 10 mechanisms that we feel really good about uh the mechanisms that they really work on chain and then we reach escaped velocity uh and we can bring
+
+          
+          12:19
+          them to cities and states and countries and NOS in order to help them with their resource allocation needs and ideally we can allocate resources better at scale with onchain Primitives and by then we'll have solved all the ux issues with blockchains but uh you know uh the future is Unwritten and I think it's up to the people in this room to to uh first we have to allocate our own resources in the web 3 space and uh only when it works for ourselves can we go to the rest of the world and Incredibly
+
+          
+          12:49
+          make a case that they should adopt these Primitives good question yeah a bit related to this um what would be your pitch for the book for completely newcomers um so how would you hook them to onchain allocation um I well I mean the book doesn't just have onchain like we we created a Persona specifically for this particular book and it was people that were interested in in the the topic so it you could work in web 3 but also those that are working in nonprofit and charity just one organizations that are looking
+
+          
+          13:36
+          for models outside of what they've seen um there's a lot of them that are not specifically to web 3 and ones that are specifically to web3 the funding mechanisms within most I wouldn't say like quadratic accelerator but within most is really easy for people to understand and so that was kind of the purpose of This Book Is that uh we wanted to work on something that was a little bit more grounded um and that people can use as a resource at any time yeah plus one to that uh I'll also say that uh you know what would my pitch be
+
+          
+          14:10
+          to an outsider about this work uh first off like I don't go around evangelizing this you know this is out there if you need it but uh you know gun to my head if you ask me to pitch this to a random person on the street I would say the internet completely rewrote how Society processes information because now computers could send information across a network um and that Chang everything in society that relied on information social media newspaper politics all that stuff um and now we have the ability to
+
+          
+          14:36
+          send value across a network and so the parallel for me is that it's going to completely change how we route value in society Insurance banking how we fund art how we fund Collective action and so get on board with the movement because we're changing how the world allocates capital and creates Collective action so that's what I'm here for [Music] great uh we only have uh I think us gave us five minutes we have four minutes now let's do one more question and then let's break for a happy hour which in a
+
+          
+          15:08
+          way is a resource allocation liquidity allocation to my belly go ahead um so in your Workshop today you said that you've now done 22 rounds of quadratic funding and I guess I was just wondering in all that time could you speak to the limitations or or learnings from that model and if there's any kind of things we need to improve moving forward oh yeah lots of things to improve quadratic funding is I think really good at giving average citizens a voice because you're allocating the matching pool on the basis of the number
+
+          
+          15:40
+          of contributors more than the amount that they give um but there's a couple really big Achilles heels with quadratic funding the first is how do you know if you're being civil attacked or not so how do you know if there's a sock puppet attack or not um and uh within that c also collusion attacks like things where if I I'll give you a dollar to contribute to my grant that's that's a big limitation of quadratic funding um and another limitation of quadratic funding is that you always have to be topping up the matching pool with more
+
+          
+          16:11
+          and more funding and so there's a continual just always Shilling all the time uh and so you know those are Achilles heels of quadratic funding and part of the reason that getcoin is going multi mechanism is because we think that quadratic funding is just one form of capital allocation we also want to mess around with retr funding and Community currencies and futarchy and conviction voting and and I think that there's a lot of opportunity to go multi mechanism and um I believe that each mechanism is
+
+          
+          16:41
+          going to be good at one thing and uh if we can have sort of like a Swiss army knife of different mechanisms that's going to be how we fund public goods in in the future you have fees anything to add there plus one okay there we go well uh should we should we wrap it up then yeah so thank you for joining us in the discussion uh we do have some books right we have um so if you go to the getcoin booth which is exactly caddy corner where we are in that room over there you can pick up a copy of the book
+
+          
+          17:11
+          I will be over there uh signing books and uh we also have posters that show how Humanity's resource allocation has evolved over time and we're also giving away those posters today if you don't get a book today you can go to alob book.co doco and download a free PDF copy or you can order a physical copy uh to anywhere in the world for I think it's 20 bucks is what we're selling them for which is just the the printing costs so thanks so much for coming to the book launch and I'll see you at the resource
+
+          
+          17:43
+          allocation I mean happy hour in a second [Applause] n
+
+          

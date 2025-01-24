@@ -1,0 +1,297 @@
+
+          00:01
+          -I think that Gitcoin itself is a pretty protopian project in that we have these quarterly grants rounds and the grants rounds are like a metronome. Every quarter we have one. We design them in concert with the community and we execute them. The goal is not to be perfect. It's just protopia. It's to be better than it was before. [music] -Welcome to The Regeneration Will Be Funded. This is a show exploring regenerative finance and pathways to a life-affirming economy. I'm your host, Matthew Monahan,
+
+          
+          00:39
+          and today I'm joined by Kevin Owocki, founder of Gitcoin. Folks may remember, we had Kevin on in season one when we were at the ReFi Summit in Seattle. We just completed the Ma Earth grants round, which is hosted on Gitcoin. Gitcoin was actually also a matching pool funder in the round. Many thanks and gratitude to you, Kevin, for helping us incubate a lot of the projects here at Ma Earth. Welcome back to the show. -Glad to be here. -Awesome. Today you just spoke at Devcon and announcing your new book.
+
+          
+          01:20
+          -I actually just gave my talk at Devcon about an hour ago. At Devcon this year, I'm releasing a new book called the Onchain Capital Allocation Handbook. That sounds like a mouthful, but capital allocation is just when you spend money in order to achieve an outcome, whether that's profit or impact. On-chain just means that you're doing it on a blockchain. We're starting to explore the design space of how we could do a better job of funding impact and funding what matters using blockchains. Boy, the design space is so cool.
+
+          
+          01:52
+          -Gitcoin has really started to popularize quadratic funding as a capital allocation mechanism on-chain. I guess the book starts to point to all of these worlds of other possibilities. Can you share more? What are some of the other examples? -Gitcoin started with quadratic funding. As of Q4 2024, we've delivered $65 million worth of impact to the Ethereum ecosystem and people building in Ethereum like Ma Earth. Quadratic funding was invented by Vitalik Buterin and Glen Weyl, and Zoe Hitzig. It's not something we invented, but it's something we discovered.
+
+          
+          02:26
+          It's supercharged Gitcoin's growth. We really love quadratic funding. We've done 22 rounds of quadratic funding once per quarter for the last six years or so and learned a lot about it. As the ecosystem progresses, there's been a lot of other mechanisms that people are excited about. By venturing from quadratic funding to other mechanisms, like retro funding and conviction voting, and guilds, and LottoPGF, and there's a bunch of stuff out there. We're exploring different parts of the design space.
+
+          
+          03:04
+          One of the things I really like about doing that is that we're going to have a plurality of different funding apps where we can fund the causes that we care about. Quadratic funding doesn't have to do everything. It can just do one thing and do it well. I envision a future where we have a plurality of different capital allocation mechanisms, funding all the different plurality of public goods and causes out there. We're in the very early stages of exploring that design space. Maybe some of those will be brought into Gitcoin grants rounds
+
+          
+          03:35
+          into the future. If Gitcoin 1.0 was a screwdriver, it was just quadratic funding, Gitcoin 2.0 is like a multi-tool. It's going to have multiple different tools. The job of the round operator will just be to choose which tool is right for the job that they want to do. -You've created this experience for round operators like Ma Earth to come in and run a quadratic round on Gitcoin. Then you've also extracted the tooling to API layer with Allo. Can you share more about, what is Allo and what's the vision?
+
+          
+          04:10
+          -Gitcoin's mission is to help people fund what matters to them. I think there's something beautiful in helping people fund what matters relative to their own value sets. Ma Earth, as a round operator in GG22, had its own round that was focused on what matters to your constituents. That's our reason for existing. That's our why. That's our North Star fund, what matters. One of the things that we're realizing is that the optimal experience is to build Gitcoin grants stack, which is basically a tool for someone like you
+
+          
+          04:43
+          who understands basic things about blockchains to deploy a quadratic funding round or a direct grants round or a retro funding round on chain. There's actually an experience that we can offer to developers to build their own custom mechanisms. That's what we call Allo Protocol. Allo Protocol is short for Allocation Protocol. It's a protocol that helps you build more secure, better funding tools faster than ever before. You can look at our offering as hitting people who can just use Web3 apps at one level.
+
+          
+          05:17
+          Then also one for software developers that want to build the next power tool for doing funding infrastructure. Different audiences, different constraints, but there's a lot of power at both levels. -One of the things I really appreciate about the approach is this iterative cycle. I feel like it's like so much of the future is path dependent. There's just something so magical about having this quarterly or semi-annual approach of something that starts and finishes. It's like a season. It's like a heartbeat.
+
+          
+          05:51
+          It's a rhythm that then we can iterate all these different aspects. We even saw that from grants round one to two with our community rounds on Ma Earth. There were just a lot of things that-- we brought on new team members. We did our storytelling differently and better. We knew how to finalize the round differently. We were better prepared. Then we identify new gaps and new things to go deeper in. How do you think about all of that? -I think a lot about the philosophy of protopia when I hear you talk about that.
+
+          
+          06:23
+          Have you heard of this word "protopia"? -Yes, but maybe share more. -Basically, utopia is a far-off distant future that we might achieve that's better than the one that we have today. Protopia is this idea that instead of investing in a far off future that we may not ever reach, protopia is just about getting better every week, every quarter, every month. Protopia is about pulling ourselves towards a future inch by inch, week by week, month by month. The definition of protopia is just that each time period is better than the time period before it.
+
+          
+          07:00
+          I think that when people see my work, they think of me as a utopian. I think that progress is possible. That utopia in some ways is like a flawed philosophy because you're dreaming about some far-off future that may not ever come. With protopia, you can demonstrate momentum and actually build your movement, build credibility. The epistemology of why people believe in you is because they see you making progress and so they join your cause. I think that Gitcoin itself is a pretty protopian project in that,
+
+          
+          07:34
+          like you said, we have these quarterly grants rounds and the grants rounds are like a metronome. Every quarter we have one. We design them in concert with the community and we execute them. The goal is not to be perfect. It's just protopia. It's to be better than it was before. There's this thing called the OODA loop, the observe, orient, decide, act, repeat loop that we go through every quarter where we basically observe what the community wants and what happened last quarter, what's now happening in the blockchain space.
+
+          
+          08:07
+          We orient in that space. We decide what's on our roadmap, and we act in that we execute adding new features and making the user experience better. Then with the cycle starts all over again. GG23 will be our next one. What I think is really cool about that is that allows us to demonstrate progress. Sometimes we screw it up and that's just the nature of being an agentic person, is that you're not perfect and you do mess things up. We just try to learn from those mistakes every round. Sometimes there's even rounds
+
+          
+          08:43
+          where it's one step forward and three steps back because you want to climb a new-- go from climbing one local maxima into climbing a new global maxima. I think that when Gitcoin, when we imploded the company and became a DAO, that was an example of one step forward and three steps back. We're slowly reclimbing the maxima of being a DAO and figuring out how to operate in that way together. Iterative evolutionary protopian ecosystems are, I think, a great way of demonstrating progress. A lot of the crypto space is all about immutability and hardness,
+
+          
+          09:20
+          and never changing. I think that we're pioneering a new philosophy that's about evolution and agility within certain bounds. It's a great way to build momentum. -I was just listening to John Fullerton who coined the term "regenerative economics". He was talking about how one of the key paradigm shifts is seeing the economy as a living being and really living this approach to how we build these systems. It reminds me of that, in that contrast of immutability and this smart contract has to live forever
+
+          
+          09:58
+          versus something that's dynamic and evolving, and living, and receives community feedback and iterates. I don't know if that provokes anything. It strikes me as an important part of how we need to be designing these systems in the future. -I actually wrote a post about this on the Gitcoin Gov forums about ephemeral DAOs. Basically if you try to design a DAO to live forever-- DAOs are just digital organizations, for the people who aren't Web3 native that are listening. Basically if you're trying to build a DAO that lives forever,
+
+          
+          10:30
+          then it has to be really perfect in how you set its initial conditions and how those evolve over time. One of the really cool things about a quadratic funding round or a retro funding round-- by the way, I do think of quadratic funding rounds and retro rounds as just ephemeral DAOs. They last for two weeks, they spin up, they do their job, and then they spin down. One of the cool things about that is that there's just way less pressure to get it perfect when you're only going to do it for two weeks.
+
+          
+          10:56
+          I think there's a lot of value in experimenting in a way that is Pareto optimal and creates action, and isn't expected to be perfect from its onset. That's the philosophy that we've tried to bring to designing these things. I hope to see more ephemeral DAOs and ephemeral experiments that iterate towards better designs every time they run. -Another post you recently wrote was around donor fatigue or grants round fatigue and then guilds. Can you share more of what was the message there and how you're thinking about it?
+
+          
+          11:31
+          -We're getting so plural. We're getting into many mechanisms. Basically guilds are a mechanism that's been pioneered by this project called Protocol Guild. At their base layer they're a smart contract which is a list of addresses, 200 addresses, of people that maintain the Ethereum execution and consensus layer clients, the non-technical people in the audience, Ethereum infrastructure. The Protocol Guild has been really great in making it easy to let projects give back to the infrastructure upon which they depend.
+
+          
+          12:12
+          Before, if you were going to fund Ethereum core protocol development, you would have to go find everyone and gather their addresses and distribute to it. Now you just fund the Protocol Guild and it has a vesting contract and it distributes to all the people on that list. The guild you can think of as an aggregation of labor. We're playing in the same territory that unions did in collective bargaining agreements, but in the 21st century in an on-chain way. I think there's really something profound there
+
+          
+          12:39
+          in doing this in a 21st century-native way. The Protocol Guild has demonstrated that you can aggregate the supply of labor and you can also aggregate the demands of the people who are going in to fund these things. That's the Protocol Guild and the mechanism that they've developed. It's basically just an aggregation of labor. The other thing that's sort of been happening is that in Gitcoin's wake, there are now tens, maybe hundreds of public goods funding experiments across the ecosystem in dozens or hundreds of different DAOs.
+
+          
+          13:17
+          If you're a grantee, if you're someone who's trying to do good work in all of these ecosystems, it can be really fatiguing to try to keep up with what's going on in all of these different ecosystems. Don't get me wrong, I think people are thankful that we have this philosophy of funding what matters to us, but it's just really hard when it's happening in a bunch of different places. The idea here is, what if we took the guild mechanism and we aggregated the funding and sales and those types of functions,
+
+          
+          13:49
+          and created these funding routers that went out to all the different rounds and then pulled in the money, and then distributed it for you automatically? We're going from a-- I almost think of it as like a single player use case or like a single ecosystem use case where there's like one Gitcoin round, which is what it was in 2020, to now a multiplayer, multi-ecosystem use case. There's an opportunity to aggregate supply and demand to batch process these things and create a better user experience from there.
+
+          
+          14:20
+          Protocol Guild really pioneered the guild mechanism. Now there's people who are looking at, instead of having a Protocol Guild, having a dev tooling guild or a climate guild or all different types of guilds. Just one of the mechanisms that we cover in the on-chain capital allocation book, guilds are really powerful. -I already see so many resonant themes happening with our grants round's friends and partners. we had both Samantha Power and John Ruth advising us on this round. John has been one of the coordinators of the Climate Coordination Network, CCN,
+
+          
+          14:58
+          which was really the first community round focused on climate-related themes that's been running on Gitcoin several times now, distributed a lot of capital to really great work. Then Samantha doing the bioregionalism with Benjamin Life and Monty at ReFi DAO. We're already like in telegram groups trying to understand, how do we think about projects that are applying for multiple rounds at the same time? In some ways that's a benefit. In other ways, do you want to give space to other people? We had nested layers of projects like a project
+
+          
+          15:35
+          applies from Ma Earth as a land project. It's also part of a bioregional aggregation in the BioFi round and they're using a tool that's been funded by CCN. Then they have an open source software piece that's over here with the Web3 tools. There's certainly a lot of surface area that will probably continue to cohere at different nested layers. -This gets back to my point about plurality in that there's a lot of different tools that do one thing and do them well and they can be combined into these super organisms
+
+          
+          16:07
+          that are an aggregation of each of them. One of the things that I really think about plurality is, A, it's beautiful to see this diversity of tools and people who are working on shared causes together. I think of plurality as a meta primitive, a primitive for resilience. Basically if one of these tools gets taken out, then you're not taking out the entire supply chain. There's diversity there. One of the tradeoffs between diversity, plurality, is efficiency, because you have to learn about all these other things
+
+          
+          16:42
+          and you have to figure out which one you're going to use. I think that we should aim for a system that's resilient on some level, and also efficient on another level. The cool thing about these little tools being everywhere and being modular is that we can build bridges between them and build bridges in that tradeoff space. It's the very early days of this design space. Blockchains have only been around for 10 years, and Gitcoin-like structures have only been around for 4 or 5. I think it'll continue to evolve,
+
+          
+          17:17
+          taking it back to the iterative evolutionary nature of what we talked about before. We've already got the evolutionary algorithm of trying to get a better UX every quarter. Now we're just pointing that evolutionary algorithm at these types of problems instead of the problems that we had three years ago, which were more around, how do I fund this grant without paying $7 in gas? The evolutionary nature of this has stayed, but just the problems that we pointed at are different now. -I still remember making a donation.
+
+          
+          17:50
+          Maybe it was GG16 or something where it was like my gas fees were higher than my donation amount. It was like $50, $100 in gas fees at Ethereum. Now we're down to pennies and, yes, it's been good progress. -We were one of the first apps to deploy a layer two. Layer twos are Ethereum scaling technology. In 2020, we were one of the first apps to deploy a layer two. I was always really proud that we were pushing the frontier of what's possible there. -Speaking of that, and I mentioned the BioFi round.
+
+          
+          18:20
+          I know that the BioFi round was actually inspired by a tweet that you had, and that our mutual friend, Benjamin Life, was one of the round operators. It gets at another theme I wanted to ask you about because, the BioFi round, for those who aren't familiar, it's like these bioregional financing facilities, these activations at bioregional levels, and also rhymes with some of the themes you were speaking to with guilds, where you have huge amounts of capital that are coming from potentially nation states in terms of climate funding.
+
+          
+          18:52
+          Who tends to get that capital might just be big monolithic corporates or huge top-down heavy programs that aren't connected on the ground. You can't ask the average regenerative farm to go out and know how to apply to all these different types of funding mechanisms. Thinking bioregionally is quite interesting because it allows, from a funding perspective, some intermediating function. People who might be closer to those communities, but who can also abstract out some of the capital allocation or acquisition rather.
+
+          
+          19:25
+          That BioFi round happened. I know you're also thinking about this in terms of how Ethereum's tools can be used and this Cosmo local and localism movement within the Ethereum space. I've heard you make gestures towards this in a variety of contexts. I was wondering if you could share more about all that. -Sure. I will do it and I'll also try to explain what I'm talking about along the way. Was having a call with my mom two weeks ago and she's like, you're using a lot of words that I don't know. Bioregionalism, let's just start there.
+
+          
+          19:58
+          As I understand it, this is an idea that watersheds are a natural delineation in nature where basically if two organisms are in the same watershed, then they're coupled in some way because they share resources, water and air, and all those things. You start to get these natural boundaries in nature around the watershed. One of the things that I think is an opportunity there is that we could build infrastructure that helps people in a bioregion support other projects in a bioregion because they are mutually interdependent on each other.
+
+          
+          20:37
+          Now, of course, we're all interdependent on some level globally and locally, and all up and down the stack, but we're more dependent within a bioregion on each other than we are with people across the world. Bioregions feel like nature's dividing lines. That's point one, that's what a bioregion is. Point two is that I happen to be of the belief that we're in a world in which the geopolitics are changing. It's possible that we'll be in-- in certain parts of the world, this is already true, but it's possible it could increase over the next 10 or 20 years,
+
+          
+          21:14
+          but that international and national-level agreements, the social safety nets and the coordination that we've developed in the industrial age will start to break down. Then that will leave us being more dependent on our families, communities, local cities, and states more so than before. The collapse or the evolution of the international system and us moving to a more multi-polar world is the second thing that I see. The question is how do we organize locally? I think that if we were to rebuild from scratch
+
+          
+          21:51
+          all of our funding infrastructure, I think a really interesting idea would be instead of having states, which is, in the United States, we literally have these boxes that were just drawn by a bureaucrat 300 years ago, I think we would organize around bioregions. If we're going to be building this structure to fund earth materials and biodiversity, we should build funding infrastructure that contains bioregions within themselves and then encourage people to fund within their bioregion, the work of regenerative farmers and biodiversity,
+
+          
+          22:29
+          and climate, and all those things. That might be a really important thing. Then I think crypto infrastructure can be pointed at those bioregions in order to help people coordinate within them. Of course we should be funding things up and down the stack from units as small as families and communities all the way up to the world. An interesting convergence between the global and the local is the bioregional. I just think there's a lot of opportunity to fund bioregions. Maybe I'll stop there and then we can talk
+
+          
+          22:59
+          more abstractly about Cosmo-localism from there. -Just add one funny anecdote. We had a conversation with Karl Burkart, who is the co-founder of One Earth. They actually created bioregional maps many years ago, that have been often cited and used in terms of thinking about, where are those natural bioregional boundaries? He recently released a post and was sharing, in our episode, that the earliest use of the word "bioregion" that they could find was actually in the academic literature. It was scientists, I think I got this right,
+
+          
+          23:42
+          describing the behavior of a blue crab. It was essentially the bioregion of the blue crab was everywhere that it would go to get its resources to basically live and survive. That was its bioregion. Then that was a word that started to get adapted and used in all these different contexts to often now mean, like you said, the ecological boundaries are the natural contours of what makes sense rather than just random lines on a map. -That actually begs me the question of what a bioregion would be under the sea,
+
+          
+          24:13
+          because you don't have watersheds in the same way. -Maybe I'll have to look it up-- -I don't think it's really often used exclusively in the context of watersheds because it could be a mountain range. It could be other forms of geological contours. We did actually talk to Karl about that too. That the ocean does have very different types of ecosystems that have essentially their own bioregions as well. -I think of it like how clustered are the organisms in an ecology with each other is maybe one measure of a bioregion.
+
+          
+          24:44
+          Maybe there's not clear delineating lines, there's overlapping concentric circles or something like that. -Then for those who want to go down the permaculture rabbit hole, there's edge effect or eco tones. It's like often the most interesting things that are happening ecologically are at those edges where maybe bioregions meet. You see a lot of evolution in the edges, which also starts to trigger thoughts about how we do governance and funding, in trade and these types of things. Anyway, you were going to talk about Cosmo-localism.
+
+          
+          25:16
+          -Yes. Cosmo-localism, as I understand it, is about the relationship between the local and the global. One of the things that I think is really interesting about where we are in this point in time right now is that-- I'm almost 40 years old and I grew up in the '90s when, during the Clinton era in the United States, we had this era of globalization and a new era of international trade. In the United States that meant that a lot of our manufacturing was hollowed out and sent to other countries. Globalism of the '90s
+
+          
+          25:56
+          was one interconnected coupling of the international system. Our politics are much different now and the world has evolved a lot over the last couple decades with the internet. I think that we're trying to navigate and create a new relationship between the local and the global. I think of the opportunity that we could have to really make the global commons, things like open source software and the internet, and service of the local. The example that I use of a broken relationship between the global and the local is Facebook,
+
+          
+          26:38
+          where they gave people the infrastructure to set up community groups in all these different areas. You build your community on Facebook and then they sell advertising against it. They spy on you and they sell it to advertising. Then they upregulate the most divisive information, because that's what allows them to sell more advertising. We're in a place right now with Ethereum and with open source software where I think it's possible to deploy open source into your community and to organize in that way.
+
+          
+          27:18
+          One of the eventualities that I think would be really cool in the next couple decades would be for people to take these on-chain capital allocation mechanisms and to deploy them in their local community. I think that there's an inversion of the power relationship here that can happen because this is open source and they're modular tools. It's not some company in Silicon Valley that has a fiduciary duty to maximize profit in my community, extracting from my community. It's open source software, which I have sovereignty to adjust
+
+          
+          27:47
+          and to use that I can deploy in my community and I can organize locally, using coordination software that's world-class. There's an opportunity to build a campaign where what works in Portland, because it's open source, we can fork it and pull it to Boulder. Then we can pull it to Washington, DC. We can refine the software and coordinate with all the best parts of globalism and world-class software development, but then really leverage local trust networks and local legitimacy in order to fund what matters in these local communities.
+
+          
+          28:26
+          I'm talking very concretely about how we could use quadratic funding and retro funding locally, but there's a more abstract movement in Cosmo-localism about renegotiating the relationship between the global and the local that promotes more sovereignty and human freedom, and interconnectedness than maybe arguably the globalism that we naively deployed in the '90s and 2000s did. These are some ideas that are floating around the Ethereum community right now. I just went to, a couple months ago, this conference called the General Forum for Ethereum Localism.
+
+          
+          29:01
+          Which, that's a mouthful, but just Ethereum localism is a group of people who care about the Cosmo-local and using Ethereum to fund artists and agricultural campaigns in these local communities. It's a vibe. -That was in Portland, right? -It was in Portland. In February, I'm planning on bringing it to Boulder before [?] Franchising it from one locality to another. -Nice. What's happening in Portland and the Ethereum community keeps catching my attention. I haven't had a chance to visit and dive in,
+
+          
+          29:35
+          but it reminds me, I live in a rural community in New Zealand. A lot of what we talk about is relocalizing the food system and how do we close the loops and think about things in this local and bioregional way? I remember going to one of the council meetings and the local city government or town government. It was like something out of the 1800s. Everything is on paper. The way that the formalities were conducted, and the voting. I was like, oh wait, any romantic idea that this is the way to operate
+
+          
+          30:10
+          was suddenly brought into question of, actually we do need to upgrade our forms of local governance as well. I think this is where, like you said, if someone figures out something great in one place and then we can just quickly export it to another place, and we can have still this collective evolutionary intelligence while still provisioning resources and material goods, and so forth, maybe in a more localized manner. -There's an opportunity to reinvent democracy for the 21st century, I think.
+
+          
+          30:38
+          I know that sounds big, but I really think that that's where we are. -We have to. -I ran a quadratic funding campaign in downtown Boulder in the town that I live. In 2020, COVID was ravaging the world and downtown Boulder. A lot of these businesses in downtown had seen their foot traffic drop by 95%. We did a quadratic funding round with a comic bookshop, a yoga studio, a chocolate shop, and a bookshop. I forget exactly which businesses run around. It turns out quadratic funding works the same.
+
+          
+          31:15
+          The psychology of give a dollar and the project gets $10 works exactly the same outside of crypto. We abstracted all the crypto stuff away. They were just using Stripe. That to me was an example of, oh, we could really coordinate locally in order to make it happen. Also, to your point about the city government and how they operate, I was not able to get anyone in the city to talk to me and actually relied on local philanthropists to fund the round. We'll have to build up more legitimacy and momentum
+
+          
+          31:48
+          to be able to go and draw funds from those type of environments. I'm really excited about the upside for when we finally can, hopefully that'll be a theme of Ethereum localism and Cosmo-localism for the next 5 or 10 years. -Totally. Bringing it back to the book, we've been talking about the old system and the new system. You gave a talk at Funding the Commons the other day, and you mentioned the legacy states and the new state of capital allocation. Maybe bringing it back to the book, how is that,
+
+          
+          32:19
+          in your mind, look from old to new? -You can get the book at allobook.gitcoin.co. I think that there'll be a link in the show notes that you can check out if you're listening. The book's free. I'm not trying to make any money off of it. Although if you want to get a print edition, it's $20. We put a lot of work into the art of the book just to make it into a reading experience that feels like you're part of a movement and feels like you're part of a vibe. -Who did all these graphics? -Anya. She's a really amazing, talented designer.
+
+          
+          32:55
+          The marching orders that I gave her was I want to take this thing that's very cold and academic and appears in these academic white papers, and I want to make them into a vibe. I want to show off how these digital networks resemble biological networks and how we're building this infinite garden of organisms that are interconnected and co-dependent on each other. I want every mechanism to look like it's like the root system of a plant or of a mycelial network or something like that. I want to make it very colorful and into a vibe
+
+          
+          33:24
+          that you'd be excited to wear to a party. -Anya, you did a beautiful job. -Anya, you did a great job. The goal of the book is to make this an exciting design space to explore as opposed to like a cold academic design space. That's what we've tried to do. Making the content consumable has been a point of the book. The book's free to download it as a PDF. Then you can order one, if you want to get the art, for $20. That's just cost for me. We also uploaded the book to a GPT that has read the book.
+
+          
+          33:58
+          If you're not a big reader, you can explore the design space, which is a cool form factor for a book. Sorry, you asked me a question and I just started shilling the book. -What was the question again? -That was great. In your talk at Funding the Commons, you talk about legacy versus new. -That's what I was getting to. Basically, the design space here is on-chain capital allocation. That sounds like a mouthful, but capital allocation is just the act of spending money. If you bought a coffee this morning, you're allocating capital.
+
+          
+          34:30
+          At scale with lots of money, capital allocation becomes a full-time job for grant administrators and regional governments, and VCs. It's a full-time job for people. It's also existential for the people that depend on those decisions, whether or not their projects get funded from local parks to roads and bridges, to clean air, clean water. Then there's digital public goods like open source software. I think that what's at stake here is how are we going to fund what matters in the 21st century? How are we going to build collective action in the 21st century?
+
+          
+          35:06
+          How are we going to solve coordination failures in the 21st century? All the way from the local coordination failures, things like how am I going to keep my park clean down the street for me to how do I keep the roads safe and open to the global ones like climate change and biodiversity? The beautiful thing about Ethereum and the internet is that it's a global thing. It's also a very local thing. You can build systems that span both of those sizes and everywhere in-between. Basically high level, the hypothesis here
+
+          
+          35:41
+          is that legacy capital allocation, think like your city government, is not scalable and precise at allocating capital, and it's subject to gatekeeping. You think about someone in a city government or an NGO that's trying to figure out how to fund what matters to their constituents. Basically, because they're the ones that are giving out money in their communities, they become power brokers in these communities. That's like an inversion of going there to help people, is gaining power over them. I also think that you see these grant programs
+
+          
+          36:18
+          that develop all this bureaucracy and 20-page grant applications, and multiple steps, and blah, blah, blah. The bureaucracy consumes the mission. There's some of these NGOs that spend 40% of their budget on administrative overhead. I really think that there's an opportunity to redesign how we do capital allocation in the 21st century. On-chain capital allocation can leverage the properties of blockchains, global, transparent, immutable, and programmable ledgers. We can program our values into our money.
+
+          
+          36:52
+          We can build networks that are better at allocating capital. Can we build more democratic systems of capital allocation, systems that leverage edge-based intelligence to see what everyday constituents in them want, not just like a power broker in an ivory tower? That's the design space that I think is really cool. I try to illustrate that in the book and get people excited about this movement of funding what matters on chain. If the internet changed how information flows in society and that gave us social media
+
+          
+          37:26
+          and new forms of entertainment and media, and politics, I think that blockchains are going to change how value flows in society. That's going to change, yes, for-profit things like investments and how do we fund art, but also how do we fund what matters? How do we fund public goods? That's the design space that I went into at the Funding the Commons talk and also in the book. -I love it. I have many great things to say about Gitcoin. I really am appreciating everything that this community has done.
+
+          
+          37:57
+          You have this really cool way of talking about lofty future ideas, but then still executing a high-performance organization that's very practical and in the weeds- -Protopia. The key is protopia. -And doing stuff. Exactly. -One thing I wanted to really acknowledge is in our conversations in these interviews, one theme that's been coming up is we're talking to Djimo from Silvi or Holke from Hypercerts, or this morning, David Dao and Sharfy from Gainforest, and people who have been relying on the grants programs
+
+          
+          38:35
+          and the community rounds to get their projects off the ground. I've been pulling on this thread of, what does venture capital inside of the nature space look like, and also what's its shadow side? Because it creates all these incentives that can sometimes lead to a lot of challenges downstream. It's not to be dogmatic against venture, but I think part of my conclusion is that the early stage of projects, if we can just increase the runway a bit where they don't have to sell out immediately to super rapid-growth venture capital incentives
+
+          
+          39:14
+          before they find product market fit and so forth, it just gives the entrepreneurs and the founders a lot more sovereignty and leeway. We're seeing more examples of projects that are able to do that because of the Gitcoin rounds. It's like this very tiny practical, quotidian example within our nature space. It points to that future where if we can allocate capital in more pluralistic ways and program our values into our money, then we're going to see all of these positive outcomes as a consequence.
+
+          
+          39:46
+          -It's a real blessing to be here at Devcon. A lot of times, my first interaction with someone will be I got $10,000 off Gitcoin and it got me through a hard time. That feels cool to be doing that at scale. As the founder of Gitcoin, I'll get more credit and more blame than I deserve when Gitcoin either screws up or does well. I just want to take a moment to recognize all the contributors, both to the software and to the rounds, and to the movement that we're a part of and stewarding, and building, and also a beneficiary of.
+
+          
+          40:22
+          Gitcoin's a movement. I might be the face of it because people understand founders and their narratives, but it's a movement of people who are working on this stuff. What I'm going to keep trying to do is I have access to all the different parts of the movement because I founded Gitcoin, and I'm going to keep trying to democratize the knowledge and the access to those things and pay it forward to the next founder that comes along that wants to build a protopia. That's how we build a movement is we amplify each other.
+
+          
+          40:50
+          -Absolutely. When people ask me for the first time getting the Web3 space, where's the signal from the noise? Where do I go? I'm skeptical of this. Da, da, da. I'm always sending them to Gitcoin. I hope people check out the book. It's a great piece of work. Not your first book. Third, fourth? How many of these we got now? -Who's counting at this point? I think we're over a half a dozen at this point. -Cool. -I really like, I said, democratizing my knowledge. We're over six books now. I've done 200 podcast episodes.
+
+          
+          41:24
+          It's just there's a lot of really smart people that have a lot to teach us. Yourself included, I think that you're gaining a lot of knowledge and access, and democratizing a lot of information through Ma Earth. It's a pleasure to chat with you. -Awesome. Thank you, Kevin. Just go to allobook.gitcoin.co. There is a link in the show notes as it happens. For more on the book, check out the Green Pill podcast, Kevin's podcast, which we didn't shill too much, but a great repository of knowledge and conversations.
+
+          
+          42:00
+          Like you said, over 200 interviews? -Yes, 200 interviews. -Who's counting? For more great conversations from here at Devcon and for others in the Web3 space, and much more, just go to maearth.com. Thanks for tuning in. We'll see you on the next one. [music]
+
+          
