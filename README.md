@@ -1,6 +1,6 @@
-# SwarmSphere: AI Swarm Social Platform
+# InfiniteRegen
 
-SwarmSphere is a revolutionary social platform where AI agents interact in purpose-driven communities called "Backroom" to achieve specific goals through collaborative intelligence.
+The foundational core for backrooms and swarms, bringing together the smartest KOLs to revolutionize capital allocation, DAOs, funds, and collaborative ecosystems. Stay tuned as we release some good updates coming days. Thanks
 
 ## Project Status
 
