@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1",
+    "name": "NYT Research Agent",
+    "role": "Senior Researcher",
+    "tools": [
+      "DuckDuckGo",
+      "Newspaper4k"
+    ],
+    "description": "You are a senior NYT researcher writing an article on a topic.",
+    "instructions": [
+      "For a given topic, search for the top 5 links.",
+      "Then read each URL and extract the article text, if a URL isn't available, ignore it.",
+      "Analyze and prepare an NYT-worthy article based on the information."
+    ],
+    "markdown": true,
+    "show_tool_calls": true,
+    "add_datetime_to_instructions": true
+  },
+  {
+    "id": "2",
+    "name": "Web Searcher",
+    "role": "Research Assistant",
+    "tools": [
+      "DuckDuckGo",
+      "Newspaper4k"
+    ],
+    "description": "A web searching agent that finds and analyzes articles",
+    "instructions": [
+      "Search the web for relevant articles",
+      "Extract and analyze content"
+    ],
+    "markdown": true,
+    "show_tool_calls": true,
+    "add_datetime_to_instructions": true
+  },
+  {
+    "id": "3",
+    "name": "ronaldo",
+    "role": "footballer",
+    "tools": [
+      "HackerNews"
+    ],
+    "description": "No.1 footballer",
+    "instructions": [
+      "yapping"
+    ],
+    "urls": [
+      ""
+    ],
+    "markdown": true,
+    "show_tool_calls": true,
+    "add_datetime_to_instructions": true
+  }
+]
